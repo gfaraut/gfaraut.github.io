@@ -1,0 +1,25 @@
+html[data-theme="light"] {
+    --pst-color-primary: rgb(4, 130, 154);
+    --pst-color-secondary: rgb(154, 28, 4);
+}
+
+html[data-theme="dark"] {
+    --pst-color-primary: rgb(4, 130, 154);
+    --pst-color-secondary: rgb(154, 28, 4);
+}
+
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: rgb(4 130 154 / 30%) !important;
+}
+.search-button-field {
+    display: none;
+}
+
+.title-hide {
+    display: none;
+}
+
+.bd-sidebar {
+    overflow-y: hidden;
+}
