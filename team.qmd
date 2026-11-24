@@ -29,7 +29,10 @@ CV and their transcripts, even when no position is currently advertised.
   - **NOM Prénom** (début–fin, précision éventuelle)\
       *Sujet de thèse ou de stage*
 
-  Troisième ligne (financement, partenaire…) : terminer aussi la ligne du sujet par \
+  Encadrement issu d'une collaboration : ajouter une troisième ligne,
+      In collaboration with Institution (Nom du collègue)
+  (ou le financement, ex. « CIFRE PhD in collaboration with EDF R&D ») ;
+  terminer alors aussi la ligne du sujet par \
 
   Sujet avec lien (thèse sur HAL, article…) :
       [Titre](https://theses.hal.science/tel-XXXXXXXX)
@@ -53,7 +56,8 @@ CV and their transcripts, even when no position is currently advertised.
 ## Past PhD students
 
 - **Peng LV** (2025, visiting PhD student, 9 months)\
-    Multi-agent systems, path planning, LTL model-checking, game theory, Supervisory Control Theory
+    Multi-agent systems, path planning, LTL model-checking, game theory, Supervisory Control Theory\
+    In collaboration with Shanghai Jiao Tong University (Xiang Yin)
 - **Yan MONIER** (2021–2024)\
     *Adaptive identification of hybrid systems for cyber-physical system digital twins*
 - **Kevin FOUQUET** (2018–2021)\
@@ -63,10 +67,40 @@ CV and their transcripts, even when no position is currently advertised.
 - **Jérémie SAIVES** (2013–2016)\
     [Blackbox Behavioural Identification of Discrete Event Systems by Interpreted Petri Nets](https://theses.hal.science/tel-01358280v2)
 - **Michele ROCCOTELLI** (2015, visiting PhD student, 6 months)\
-    [An Integrated Framework for Binary Sensor Placement and Inhabitants Location Tracking](https://ieeexplore.ieee.org/document/7563847)
+    [An Integrated Framework for Binary Sensor Placement and Inhabitants Location Tracking](https://ieeexplore.ieee.org/document/7563847)\
+    In collaboration with Politecnico di Bari
 
 ## Past graduate students (MSc)
 
+- **Zoulikha HIRECHE** (2026, M2 AMSS, 6 months)\
+    *Human activity recognition and modelling of daily-life habits at home from Wi-Fi sensing*
+- **Salvatore MATERA** (2026, visiting MSc student, 5 months)\
+    *Optimisation of sensor deployment and detection of behavioural anomalies at home*\
+    In collaboration with Politecnico di Bari
+- **Julien VERDON** (2026, M1 internship, 5 months)\
+    *Driving style prediction and path planning from electric vehicle simulations*\
+    In collaboration with Politecnico di Bari (Michele Roccotelli)
+- **Léo-Paul DEWAELE** (2025, M1 internship, 4 months)\
+    [Automatic activity planning based on activities of daily living and quality-of-life recommendations](https://doi.org/10.1109/wodes69290.2026.11598225)\
+    In collaboration with Shanghai Jiao Tong University (Xiang Yin)
+- **Eliot RENIAUD** (2025, M1 internship, 4 months)\
+    *Supervisory control with forcible events under indefinite actuator and sensor attacks*\
+    In collaboration with Osaka Metropolitan University (Kai Cai)
+- **Maxence VADOT** (2025, M1 internship, 3 months)\
+    *Simulation of a drone-assisted urban evacuation*\
+    In collaboration with Osaka Metropolitan University (Kai Cai)
+- **Charles DRAMÉ-MAIGNÉ** (2024, M2 AMSS, 5 months)\
+    *Optimizing EV routes: tailoring to driver behavior and preferences for both time and energy efficiency*\
+    In collaboration with Politecnico di Bari (Michele Roccotelli)
+- **Louis BECHU** (2024, M2 AMSS, 5 months)\
+    *Digital twins in RAMS studies for complex systems*\
+    In collaboration with LGM (Thibault Montigaud)
+- **Alvi CALAME** (2024, M2 AMSS, 6 months)\
+    *A belief-theoretic approach to robustness enhancement for multi-object tracking*\
+    In collaboration with EDF R&D (Tuan Dang)
+- **Nicolas GUILLOU** (2024, M1 internship, 5 months)\
+    *Drone management and path planning*\
+    In collaboration with Osaka Metropolitan University (Kai Cai)
 - **Simon MEKSAVAN** (2024, 6 months)\
     *Human activity detection and recognition using AI motion detection and probabilistic finite-state automata*
 - **Romain THIBERT** (2022, 6 months)\
@@ -74,15 +108,20 @@ CV and their transcripts, even when no position is currently advertised.
 - **Yan MONIER** (2021, 6 months)\
     *Hybrid model-based identification of complex systems*
 - **Grazia ROSSI** (2019, 6 months)\
-    *Incremental identification of automation systems by discrete event models*
+    *Incremental identification of automation systems by discrete event models*\
+    In collaboration with University of Salerno (Francesco Basile)
 - **Antonio AMODEO** (2019, 6 months)\
-    *Fault detection with identified discrete models applied to digital twins*
+    *Fault detection with identified discrete models applied to digital twins*\
+    In collaboration with University of Salerno (Francesco Basile)
 - **Noemi BIRGONA** (2019, 6 months)\
-    *Incremental identification of observable behaviours in automation systems*
+    *Incremental identification of observable behaviours in automation systems*\
+    In collaboration with University of Salerno (Francesco Basile)
 - **Luigi FERRARA** (2017, 6 months)\
-    *Identification of DES by Petri nets: discovering the unobservable behavior for diagnosis purposes*
+    *Identification of DES by Petri nets: discovering the unobservable behavior for diagnosis purposes*\
+    In collaboration with University of Salerno (Francesco Basile)
 - **Chiara CASCONE** (2017, 6 months)\
-    *Model-based diagnosis of DES based on a fault-free Petri net*
+    *Model-based diagnosis of DES based on a fault-free Petri net*\
+    In collaboration with University of Salerno (Francesco Basile)
 - **Florentin DELAINE** (2017, 6 months)\
     *Modélisation et validation expérimentale de la détection d’habitudes de vie dans un habitat intelligent*
 - **Aymeric LABATUT** (2016, 6 months)\
