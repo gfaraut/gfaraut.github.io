@@ -18,7 +18,7 @@ body-classes: projects-page
   à plusieurs personnes. Ces informations sont réservées aux dossiers internes
   (HCERES, promotion…), comme les facteurs d'impact.
   Site web du projet, s'il existe : lien sur l'acronyme, **[ACRONYME](https://site-du-projet)**
-  Budget global indiqué seulement à partir de 80 k€.
+  Budget global indiqué seulement à partir de 80 k€ (et jamais pour WiFine RPM, par choix).
   Titres et résumés en anglais.
   Projet terminé : déplacer le bloc de « Current » vers « Past » (ordre : plus récent en haut).
 -->
@@ -40,9 +40,9 @@ international and local programmes, with academic and industrial partners.
 - **ADAM** — Automatic behaviour deviation detection by adaptive modelling (2025–2026)\
     *Université Paris-Saclay, Poc in Labs prematuration programme (IDEX) · LURPA · budget 80 k€*\
     Software that automatically builds and updates a behavioural digital twin of a production line from its sensor and actuator signals, to detect faults and cyber-attacks early in a form operators can interpret. It builds on the PhD work of Yan Monier, co-leader of the project, who received the [2026 i-PhD award](https://www.universite-paris-saclay.fr/actualites/prix-i-lab-et-i-phd-11-projets-laureats-lies-luniversite-paris-saclay) (French Ministry of Research and Bpifrance) for ADAM.
-- **WiFine RPM** — Remote patient monitoring with Wi-Fi sensing (2024–2027)\
-    *SATT Paris-Saclay maturation programme · CentraleSupélec, MICS (coord.), LURPA · budget 492.4 k€*\
-    Turning ordinary Wi-Fi devices into sensors that recognise movements, locate people and measure breathing at home, for remote medical monitoring, with the start-up Zoe Care.
+- **WiFine RPM** — Remote patient monitoring with Wi-Fi sensing (2025–2027)\
+    *SATT Paris-Saclay maturation programme · CentraleSupélec, MICS (coord.), LURPA, [Zoe Care](https://zoe.care/)*\
+    Turning ordinary Wi-Fi devices into sensors that recognise movements, locate people and measure breathing at home, for remote medical monitoring. The technology is developed with [Zoe Care](https://zoe.care/), a start-up from CentraleSupélec research whose first product, Zoe Fall, detects falls of older people from Wi-Fi waves.
 
 ## Past projects
 
