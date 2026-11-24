@@ -98,6 +98,25 @@ body.home #title-block-header { display: none; }
 }
 .hero-link:hover { border-color: var(--site-prune); color: var(--site-prune); }
 .hero-text h2 { margin-top: 1.2rem; }
+
+/* Mots-clés (accueil) : une liste Markdown affichée en pastilles */
+.keywords ul {
+  list-style: none;
+  padding: 0;
+  margin: 0.6rem 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+.keywords li {
+  margin: 0;
+  padding: 0.2rem 0.75rem;
+  font-size: 0.85em;
+  font-weight: 600;
+  color: var(--site-prune);
+  background: #F4E8EF;
+  border-radius: 999px;
+}
 @media (max-width: 767.98px) {
   .hero { grid-template-columns: 1fr; gap: 1rem; }
 }

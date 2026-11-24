@@ -29,6 +29,8 @@ CV and their transcripts, even when no position is currently advertised.
   - **NOM Prénom** (début–fin, précision éventuelle)\
       *Sujet de thèse ou de stage*
 
+  Troisième ligne (financement, partenaire…) : terminer aussi la ligne du sujet par \
+
   Sujet avec lien (thèse sur HAL, article…) :
       [Titre](https://theses.hal.science/tel-XXXXXXXX)
 
@@ -44,10 +46,9 @@ CV and their transcripts, even when no position is currently advertised.
 - **Romain THIBERT** (2022–2026, PhD defence on 14 December 2026)\
     *Resilient control reconfiguration of cyber-physical systems under cyber-attack by digital twin*
 
-<!-- Nouveau doctorant : décommenter et compléter.
-- **NOM Prénom** (2026–)\
-    *Sujet de thèse*
--->
+- **Guillaume BRIEUSSEL** (2026–2029)\
+    *Approche formelle pour la rétroingénierie des systèmes logiques temporisés à base d'automates programmables*\
+    Thèse CIFRE en collaboration avec EDF R&D
 
 ## Past PhD students
 

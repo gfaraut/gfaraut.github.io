@@ -35,7 +35,8 @@ Building models of a system — automata, interpreted Petri nets, hybrid automat
 observation of its inputs and outputs, including the part of its behavior that cannot be
 observed directly.
 
-**Related PhD theses** — Jérémie Saives (2013–2016), Yan Monier (2021–2024).
+**Related PhD theses** — Jérémie Saives (2013–2016), Yan Monier (2021–2024),
+Guillaume Brieussel (2026–2029).
 
 **Selected publications**
 

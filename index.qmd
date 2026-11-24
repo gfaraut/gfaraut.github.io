@@ -36,6 +36,18 @@ Full professor at [ENS Paris-Saclay](https://www.ens-paris-saclay.fr) ([Universi
 member of the [LURPA](https://lurpa.ens-paris-saclay.fr) laboratory and teacher in the
 [Mechanical Engineering Department](https://ens-paris-saclay.fr/en/education/departements/mechanical-engineering-department).
 
+<!-- Mots-clés : un par ligne ; garder la même liste que sur ORCID et HAL. -->
+::: {.keywords}
+- Discrete Event Systems
+- Behavior identification
+- Human-Cyber-Physical Systems
+- Cybersecurity
+- Resilient control
+- Digital twins
+- Hybrid automata
+- Petri nets
+:::
+
 ## Biosketch
 
 Since 2022, I am full professor at LURPA and head of the research theme **Industry 5.0**, which

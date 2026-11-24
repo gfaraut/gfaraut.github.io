@@ -37,6 +37,7 @@ git push                      # publication automatique
 | masquer une publication attribuée à tort par OpenAlex | `scripts/publications.py` | ajouter son DOI dans `EXCLUDE_DOIS` |
 | modifier un thème de recherche, une publication choisie | `research.qmd` | une phrase d'apport par publication ; mode d'emploi en tête du fichier ; carte correspondante dans `index.qmd` |
 | modifier la biographie, les anciens postes | `index.qmd` | |
+| modifier les mots-clés de l'accueil | `index.qmd` | bloc `{.keywords}` : un mot-clé par ligne ; garder la même liste que sur ORCID et HAL |
 | modifier le CV, le contact, l'enseignement | `cv.qmd`, `contact.qmd`, `teaching.qmd` | |
 | ajouter une image | `assets/img/` | puis dans la page : `![](assets/img/mon-image.jpg)` |
 | ajouter une page | nouveau fichier `ma-page.qmd` | puis l'ajouter au menu, section `navbar:` de `_quarto.yml` |
