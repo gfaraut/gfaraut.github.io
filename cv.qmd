@@ -45,10 +45,13 @@ aliases:
 
 ## Professional Activities
 
-- Member of the International Program Committee (IPC) of Workshop on Discrete Event Systems (WODES)
-- Associate Editor, IEEE Transactions on Automation Science and Engineering (T-ASE), until June 2025
-- Co-chair of Technical Committee “Automation in Healthcare Management” (TC AHM), IEEE Robotics and Automation Society (IEEE RAS)
-- Associate Editor, IEEE International Conference on Automation Science and Engineering (CASE) and International Conference on Systems, Man, and Cybernetics (SMC)
-- Guest Editor (with TC AHM co-chairs), Special Issue on Automation Science and Engineering for Smart and Interconnected Healthcare Delivery Systems
-- Elected member of CNU’61 (National Council of Universities): Computer Science, Signal Processing, Control and Manufacturing systems
-- National Organizing Committee, 12th IFAC Workshop on Discrete Event Systems (WODES’14), Cachan, France, May 2014
+<!-- La liste détaillée est tenue à jour dans service.qmd et teaching.qmd uniquement. -->
+Editorial and program committees, PhD committees, invited talks, evaluation work
+and collective responsibilities are listed on the [Professional service](service.qmd) page;
+teaching responsibilities on the [Teaching](teaching.qmd) page.
+
+------
+
+## Other activities
+
+- First-aid instructor, training students and staff of ENS Paris-Saclay, since 2018

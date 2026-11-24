@@ -31,6 +31,7 @@ git push                      # publication automatique
 |---|---|---|
 | ajouter ou déplacer un doctorant, un stagiaire | `team.qmd` | copier un bloc de deux lignes ; mode d'emploi en tête du fichier |
 | ajouter un projet, passer un projet en « Past » | `projects.qmd` | copier un bloc de deux ou trois lignes ; budget global seulement, ni rôle ni part LURPA ; mode d'emploi en tête du fichier |
+| ajouter un jury de thèse, une conférence invitée, un comité, une expertise | `service.qmd` | un bloc par activité, du plus récent au plus ancien ; mode d'emploi en tête du fichier ; pas de compteurs (DORA) |
 | publier une offre de stage ou de thèse | `data/offers.yml` | modèle en tête du fichier ; l'offre disparaît seule après sa date `expires` |
 | ajouter une publication | rien à faire | déposée sur HAL (ou référencée par OpenAlex), elle apparaît à la reconstruction du lundi ; pour l'avoir tout de suite : *Actions* → *Publish site* → *Run workflow* |
 | ajouter une publication pas encore référencée | `data/publications-manual.yml` | modèle en tête du fichier ; supprimer l'entrée quand l'article arrive sur HAL |
@@ -39,7 +40,7 @@ git push                      # publication automatique
 | modifier un thème de recherche, une publication choisie | `research.qmd` | une phrase d'apport par publication ; mode d'emploi en tête du fichier ; carte correspondante dans `index.qmd` |
 | modifier la biographie, les anciens postes | `index.qmd` | |
 | modifier les mots-clés de l'accueil | `index.qmd` | bloc `{.keywords}` : un mot-clé par ligne ; garder la même liste que sur ORCID et HAL |
-| modifier le CV, le contact, l'enseignement | `cv.qmd`, `contact.qmd`, `teaching.qmd` | |
+| modifier le CV, le contact, l'enseignement | `cv.qmd`, `contact.qmd`, `teaching.qmd` | responsabilités pédagogiques : `teaching.qmd` ; activités de service : `service.qmd` seulement (le CV y renvoie) |
 | modifier les logos des institutions | `index.qmd` (bloc `{.hero-logos}`) et `_quarto.yml` (`page-footer:`) | fichiers officiels dans `assets/`, à ne pas retoucher ; tailles dans `styles.css` |
 | ajouter une image | `assets/img/` | puis dans la page : `![](assets/img/mon-image.jpg)` |
 | ajouter une page | nouveau fichier `ma-page.qmd` | puis l'ajouter au menu, section `navbar:` de `_quarto.yml` |

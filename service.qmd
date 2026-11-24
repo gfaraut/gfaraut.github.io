@@ -1,0 +1,109 @@
+---
+title: "Professional service"
+body-classes: service-page
+---
+
+<!--
+  MODE D'EMPLOI
+  Chaque rubrique est triée du plus récent au plus ancien.
+
+  Jury de thèse ou d'HDR (2 lignes, la 1re finit par une barre oblique inverse \,
+  la 2de est décalée de 4 espaces) :
+  - **NOM Prénom** (année, établissement, rôle)\
+      *Titre de la thèse, en anglais*
+  Rôles : reviewer (rapporteur), examiner (examinateur), president (président du jury) ;
+  HDR : ajouter « HDR, » devant l'année (et renommer la rubrique « PhD and HDR committees »). Titre avec lien (theses.fr, HAL) :
+      [Titre](https://theses.hal.science/tel-XXXXXXXX)
+
+  Conférence invitée, séjour : même format, l'année en premier.
+  - **2025** — Plenary talk, nom de la conférence, lieu\
+      *Titre de l'exposé*
+
+  Autres rubriques : une ligne par activité, avec ses dates.
+  Esprit DORA : pas de compteurs (« 40 articles relus ») ni d'indicateurs.
+  Les comités de suivi de thèse (CSI) ne sont pas repris ici.
+-->
+
+Editorial and committee work, PhD committees, invited talks, and collective
+responsibilities. Teaching responsibilities are listed on the [Teaching](teaching.qmd) page.
+
+## PhD committees
+
+- **Cyril BACQUET** (2026, Université de Lorraine, ERPI, reviewer)\
+    *Executable model-based requirements engineering (eMBRE) for design verification and requirements validation in early development phases*
+- **Khalid HAMADA** (2026, Aix-Marseille Université, LIS, examiner)\
+    *Constrained synchronizing sequences in synchronized Petri nets with outputs: application to cyber-physical systems under attack*
+- **Dimitri RENARD** (2025, Université de Reims Champagne-Ardenne, CReSTIC, reviewer)\
+    *Design methodologies for safe controllers adapted to digital twin services*
+- **Ibis VELASQUEZ CANIZALES** (2025, INSA Toulouse, LAAS-CNRS, examiner)\
+    *From model-based to data-driven diagnosis of max-plus linear systems*
+- **Imane BOUHALI** (2025, INSA Centre Val de Loire, PRISME, reviewer)\
+    *Design of a multi-physics architecture for the digital twin of an aircraft passenger seat test bench*
+- **Sofia HUȘTIU** (2025, University of Zaragoza and Gheorghe Asachi Technical University of Iași, reviewer and jury member)\
+    *Temporal logic objectives in high-level path planning: discrete-event-based conceptual framework*
+- **Wasim AHMED MOHAMMED ALI** (2024, Politecnico di Bari, external referee)\
+    *Digital twin and security solutions for intelligent transportation systems*
+- **Tom RANGER** (2023, Université de Reims Champagne-Ardenne, CReSTIC, reviewer)\
+    *Algebraic synthesis and logic filter approach for the control of cyber-physical manufacturing systems*
+- **Fabio PARISI** (2022, Politecnico di Bari, external referee)\
+    *Automation and information approaches to support maintenance and production management in the construction industry*
+- **Sahar MOHAJERANI** (2015, Chalmers University of Technology, committee member)\
+    *On compositional approaches for discrete event systems verification and synthesis*
+- **Jing YANG** (2013, IFSTTAR, examiner)\
+    *Formal specification and testing of COTS-based on-board railway control architectures*
+
+## Invited talks & research visits
+
+- **2025** — Plenary talk, 2nd International Conference on Artificial Intelligence and Information (ICAI 2025), Xidian University, Xi'an, China\
+    *Identification of Discrete Event Systems: from models to digital twins*
+- **2023** — One-week visit to the University of Zaragoza, Spain, to set up the VALIDATOR collaboration and present the research of LURPA
+- **2022** — Talk at the SAGIP day\
+    *Contribution to the discovery of the behaviour of dynamic systems through discrete event systems*
+- **2017** — Talk at the 10th Farman day, Institut Farman, Cachan\
+    *Detection of daily-life activities based on probabilistic automata*
+- **2008–2009** — Research scholar in the Discrete Event Systems group of the University of Michigan, Ann Arbor, USA
+
+<!-- À CONFIRMER (lettre d'invitation trouvée, mais pas d'ordre de mission) ;
+  si confirmé, placer ce bloc sous celui d'ICAI 2025 :
+- **2025** — Invited talk, Workshops on Low-Altitude Space Economy and Ecology (LaSEE) and Yuk-Wing Lee Distinguished Lecture Series, Macau University of Science and Technology, Macao\
+    *Identification of Discrete Event Systems: from cyber-physical systems to the human digital twin*
+-->
+
+## Editorial & program committees
+
+- Associate Editor, IEEE Transactions on Automation Science and Engineering (T-ASE), 2022–2025
+- Associate Editor, J3eA — Journal sur l'enseignement des sciences et technologies de l'information et des systèmes, since 2024
+- Associate Editor, Conference Editorial Boards of IEEE CASE and IEEE SMC, 2016–2025
+- Guest Editor, Special Issue on Automation Science and Engineering for Smart and Interconnected Healthcare Delivery Systems, IEEE T-ASE, vol. 16, no. 1, 2019
+- International Program Committee, IFAC Workshop on Discrete Event Systems (WODES), since 2024
+- Reviewer for journals — IEEE Transactions on Automatic Control, IEEE T-ASE, IEEE Control Systems Letters, Discrete Event Dynamic Systems, Journal of Manufacturing Systems, ASME Journal of Manufacturing Science and Engineering, Personal and Ubiquitous Computing, JESA, MDPI Machines and Applied Sciences — and conferences — IEEE CDC, IEEE/RSJ IROS, IFAC World Congress, IFAC INCOM, MED, MSR
+
+## Event organisation
+
+- Teaching team and program committee, French school on Discrete Event Systems ([École SED](https://sed-fr.blogspot.com/p/ecole-sed.html)) of the SAGIP technical committee on DES, 2024 and 2025 — lectures at the 1st edition (Nancy, January 2024) on the general introduction to Discrete Event Systems and on algebraic synthesis (with Bernard Riera)
+- Organiser, Club EEA thematic day Automatique et Santé (control and health), ENSAM Paris, October 2019
+- Co-chair, 2nd Workshop on Models and Methods for Hospital Management and Planning, at IEEE ETFA 2016
+- National Organizing Committee, 12th IFAC Workshop on Discrete Event Systems (WODES'14), Cachan, May 2014
+
+<!-- À CONFIRMER (propositions trouvées, acceptation non vérifiée) :
+- Organiser, special sessions on healthcare and ambient assisted living, IEEE CASE 2015 and 2018
+-->
+
+## Scientific communities
+
+- Founding co-chair, Technical Committee on Automation in Health Care Management, IEEE Robotics and Automation Society, since 2013
+- Secretary of the Control section of the Club EEA, since 2022
+- Member of the Discrete Event Systems working group (GT SED) of the GDR MACS, and of SAGIP
+
+## Evaluation & expertise
+
+- Reviewer of research proposals and grant applications since 2019 — ANR, ANRT (CIFRE), European Science Foundation (for Région Grand Est and FWO), Fulbright, Eiffel scholarships, Université Paris-Saclay (IDEX, Graduate School SIS), Normandie Université, Aix-Marseille Université, Université de Reims Champagne-Ardenne
+
+## Institutional responsibilities
+
+- Head of international relations, LURPA, since 2026
+- Appointed member of the LURPA Laboratory Council, 2019–2024 and since 2026
+- Head of the Dependability team, LURPA, 2022–2025
+- Erasmus+ coordinator for ENS Paris-Saclay with the University of Zaragoza, Politecnico di Bari and the University of Porto, since 2016
+- Elected member of the National Council of Universities (CNU), section 61 — computer engineering, control and signal processing: full member 2019–2022, substitute member since 2024
+- Member of the Supervisory Board of the Henri Dunant Hospital (French Red Cross), Paris, 2018–2021

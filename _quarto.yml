@@ -36,6 +36,8 @@ website:
         text: Team
       - href: teaching.qmd
         text: Teaching
+      - href: service.qmd
+        text: Service
       - href: cv.qmd
         text: CV
       - href: contact.qmd
