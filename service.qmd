@@ -57,23 +57,17 @@ responsibilities. Teaching responsibilities are listed on the [Teaching](teachin
 - **2025** — Plenary talk, 2nd International Conference on Artificial Intelligence and Information (ICAI 2025), Xidian University, Xi'an, China\
     *Identification of Discrete Event Systems: from models to digital twins*
 - **2023** — One-week visit to the University of Zaragoza, Spain, to set up the VALIDATOR collaboration and present the research of LURPA
-- **2022** — Talk at the SAGIP day\
+- **2022** — Invited talk presenting the habilitation (HDR) work, SAGIP 2022 congress, Biarritz\
     *Contribution to the discovery of the behaviour of dynamic systems through discrete event systems*
 - **2017** — Talk at the 10th Farman day, Institut Farman, Cachan\
     *Detection of daily-life activities based on probabilistic automata*
 - **2008–2009** — Research scholar in the Discrete Event Systems group of the University of Michigan, Ann Arbor, USA
 
-<!-- À CONFIRMER (lettre d'invitation trouvée, mais pas d'ordre de mission) ;
-  si confirmé, placer ce bloc sous celui d'ICAI 2025 :
-- **2025** — Invited talk, Workshops on Low-Altitude Space Economy and Ecology (LaSEE) and Yuk-Wing Lee Distinguished Lecture Series, Macau University of Science and Technology, Macao\
-    *Identification of Discrete Event Systems: from cyber-physical systems to the human digital twin*
--->
-
 ## Editorial & program committees
 
 - Associate Editor, IEEE Transactions on Automation Science and Engineering (T-ASE), 2022–2025
 - Associate Editor, J3eA — Journal sur l'enseignement des sciences et technologies de l'information et des systèmes, since 2024
-- Associate Editor, Conference Editorial Boards of IEEE CASE and IEEE SMC, 2016–2025
+- Associate Editor for IEEE CASE and IEEE SMC, on behalf of the Technical Committee on Automation in Health Care Management, 2016–2025
 - Guest Editor, Special Issue on Automation Science and Engineering for Smart and Interconnected Healthcare Delivery Systems, IEEE T-ASE, vol. 16, no. 1, 2019
 - International Program Committee, IFAC Workshop on Discrete Event Systems (WODES), since 2024
 - Reviewer for journals — IEEE Transactions on Automatic Control, IEEE T-ASE, IEEE Control Systems Letters, Discrete Event Dynamic Systems, Journal of Manufacturing Systems, ASME Journal of Manufacturing Science and Engineering, Personal and Ubiquitous Computing, JESA, MDPI Machines and Applied Sciences — and conferences — IEEE CDC, IEEE/RSJ IROS, IFAC World Congress, IFAC INCOM, MED, MSR
@@ -82,16 +76,14 @@ responsibilities. Teaching responsibilities are listed on the [Teaching](teachin
 
 - Teaching team and program committee, French school on Discrete Event Systems ([École SED](https://sed-fr.blogspot.com/p/ecole-sed.html)) of the SAGIP technical committee on DES, 2024 and 2025 — lectures at the 1st edition (Nancy, January 2024) on the general introduction to Discrete Event Systems and on algebraic synthesis (with Bernard Riera)
 - Organiser, Club EEA thematic day Automatique et Santé (control and health), ENSAM Paris, October 2019
-- Co-chair, 2nd Workshop on Models and Methods for Hospital Management and Planning, at IEEE ETFA 2016
+- Co-organiser, with Cristian Mahulea (University of Zaragoza), of the 2nd Workshop on Models and Methods for Hospital Management and Planning, IEEE ETFA 2016, Berlin
+- Co-organiser, with Nacim Ramdani (Université d'Orléans), of the special session Automation Paradigms, Methods and Technologies for Ambient Assisted Living, IEEE CASE 2015, Gothenburg
+- Co-organiser, with the co-chairs of the Technical Committee on Automation in Health Care Management, of the special sessions Automation in Health Care Management, IEEE CASE 2014, Taipei
 - National Organizing Committee, 12th IFAC Workshop on Discrete Event Systems (WODES'14), Cachan, May 2014
-
-<!-- À CONFIRMER (propositions trouvées, acceptation non vérifiée) :
-- Organiser, special sessions on healthcare and ambient assisted living, IEEE CASE 2015 and 2018
--->
 
 ## Scientific communities
 
-- Founding co-chair, Technical Committee on Automation in Health Care Management, IEEE Robotics and Automation Society, since 2013
+- Founding co-chair, Technical Committee on Automation in Health Care Management, IEEE Robotics and Automation Society, 2013–2025
 - Secretary of the Control section of the Club EEA, since 2022
 - Member of the Discrete Event Systems working group (GT SED) of the GDR MACS, and of SAGIP
 
