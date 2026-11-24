@@ -1,4 +1,4 @@
-# Offres de stage ou de thèse, affichées en tête de la page Équipe (team.qmd).
+# Offres de stage ou de thèse, affichées en tête de la page Supervision (team.qmd).
 # Une offre disparaît d'elle-même après sa date « expires » : elle est retirée à la
 # reconstruction du lundi, et masquée dès le lendemain dans le navigateur des visiteurs.
 # Sans offre en cours, la section « Open positions » n'apparaît pas du tout.

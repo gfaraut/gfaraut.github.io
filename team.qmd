@@ -1,5 +1,5 @@
 ---
-title: "Team & supervision"
+title: "Supervision"
 aliases:
   - content/05_supervision.html
 # Offres de stage et de thèse : à saisir dans data/offers.yml (elles expirent seules).
@@ -12,7 +12,7 @@ listing:
 ---
 
 ::: {.join-us}
-**Joining the team.** I regularly supervise MSc internships and PhD theses on Discrete Event
+**Prospective students.** I regularly supervise MSc internships and PhD theses on Discrete Event
 Systems, behavior identification, digital twins and healthcare applications. Motivated
 students are welcome to [contact me](mailto:gregory.faraut+pages@ens-paris-saclay.fr) with a
 CV and their transcripts, even when no position is currently advertised.
@@ -23,6 +23,7 @@ CV and their transcripts, even when no position is currently advertised.
 
 <!--
   MODE D'EMPLOI
+  Cette page liste les étudiants encadrés (doctorants, stagiaires), pas l'équipe du laboratoire.
   Chaque personne = 2 lignes : la première finit par une barre oblique inverse (\),
   la seconde (le sujet) est décalée de 4 espaces.
 

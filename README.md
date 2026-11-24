@@ -72,7 +72,7 @@ git push                      # publication automatique
 | `data/offers.yml` | offres de stage et de thèse, avec date d'expiration |
 | `_templates/publications.ejs` | mise en forme de la liste des publications |
 | `_templates/recent-publications.ejs` | les 3 dernières publications, sur l'accueil |
-| `_templates/offers.ejs` | offres en cours, sur la page Équipe (écarte les offres expirées) |
+| `_templates/offers.ejs` | offres en cours, sur la page Supervision (écarte les offres expirées) |
 | `styles.css` | règles propres au site (le thème vient du socle `lurpa`) |
 | `_extensions/lurpa/` | socle Quarto LURPA (format `lurpa-html`) |
 | `assets/` | images et logos |

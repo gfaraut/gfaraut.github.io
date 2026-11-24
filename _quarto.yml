@@ -33,7 +33,7 @@ website:
       - href: publications.qmd
         text: Publications
       - href: team.qmd
-        text: Team
+        text: Supervision
       - href: teaching.qmd
         text: Teaching
       - href: service.qmd
