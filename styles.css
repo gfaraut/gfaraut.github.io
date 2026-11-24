@@ -28,7 +28,16 @@
   gap: 0.4rem;
   font-size: 0.8em;
 }
-.pub-links a, .pub-type, /* Badge de revue : non affiché depuis l'alignement sur DORA (voir _templates/publications.ejs). */
+/* Étiquettes discrètes : type de publication et liens PDF / DOI / HAL */
+.pub-links a, .pub-type, .pub-rank {
+  padding: 0.05rem 0.55rem;
+  border-radius: 999px;
+  border: 1px solid var(--site-filet);
+  text-decoration: none;
+}
+.pub-links a:hover { border-color: var(--site-prune); }
+.pub-type { background: var(--site-fond); color: #52616B; }
+/* Badge de revue : non affiché depuis l'alignement sur DORA (voir _templates/publications.ejs). */
 .pub-rank {
   background: var(--site-canard);
   border-color: var(--site-canard);
