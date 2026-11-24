@@ -17,6 +17,7 @@ body-classes: projects-page
   Ni rôle (porteur, co-porteur, participant…) ni part du LURPA : un projet avance grâce
   à plusieurs personnes. Ces informations sont réservées aux dossiers internes
   (HCERES, promotion…), comme les facteurs d'impact.
+  Site web du projet, s'il existe : lien sur l'acronyme, **[ACRONYME](https://site-du-projet)**
   Budget global indiqué seulement à partir de 80 k€.
   Titres et résumés en anglais.
   Projet terminé : déplacer le bloc de « Current » vers « Past » (ordre : plus récent en haut).
@@ -30,7 +31,7 @@ international and local programmes, with academic and industrial partners.
 - **OPTIMA-DTMS** — Optimal Maintenance of Systemic Digital Twins of Manufacturing Systems (2026–2030)\
     *ANR PRCE · LURPA (coord.), Systemic Intelligence Group · budget 497.6 k€*\
     Methods and tools to update the digital twin of a production system when the system evolves, at a cost far below that of its initial design.
-- **CHAAT** — Concurrency and Higher-dimensional Automata: Applications and Theory (2026–2030)\
+- **[CHAAT](https://ulifahrenberg.github.io/chaat/)** — Concurrency and Higher-dimensional Automata: Applications and Theory (2026–2030)\
     *ANR PRC · LMF (coord.), LRE (EPITA), IRIF, LIX (École polytechnique), SAMOVAR (Télécom SudParis) · budget 672.5 k€*\
     Theory and tools for higher-dimensional automata, a model of non-interleaving concurrency, with applications to verification and concurrent controllers.
 - **Reverse engineering of PLC-based systems** — CIFRE PhD with EDF R&D (2026–2029)\
@@ -44,7 +45,7 @@ international and local programmes, with academic and industrial partners.
     Petri net models of clinical pathways, built with the physicians of the Clinical Hospital of Zaragoza, to evaluate them and shorten hospital stays.
 - **PRECAPPAQUO** — Preventing depressive disorders through everyday gestures with a communicating patch sensor (2020–2021)\
     *Labex LaSIPS · GEEPS (coord.), LURPA, C2N*
-- **Exoman** — Towards exoskeleton-human symbiosis: investigating how humans interact with an upper-limb robotic exoskeleton (2019–2024)\
+- **[Exoman](https://www.exoman.universite-paris-saclay.fr)** — Towards exoskeleton-human symbiosis: investigating how humans interact with an upper-limb robotic exoskeleton (2019–2024)\
     *ANR · CIAMS (coord.), CEA List, ISIR, LURPA · budget 562.9 k€*
 - **ProMAut** — Process Mining and System Identification in Automatic Control (2019–2020)\
     *Institut Farman (FR CNRS 3311) · LURPA, LSV*
