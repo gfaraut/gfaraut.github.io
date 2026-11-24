@@ -47,8 +47,8 @@ CV and their transcripts, even when no position is currently advertised.
     *Resilient control reconfiguration of cyber-physical systems under cyber-attack by digital twin*
 
 - **Guillaume BRIEUSSEL** (2026–2029)\
-    *Approche formelle pour la rétroingénierie des systèmes logiques temporisés à base d'automates programmables*\
-    Thèse CIFRE en collaboration avec EDF R&D
+    *A formal approach to the reverse engineering of timed logic systems based on programmable logic controllers*\
+    CIFRE PhD in collaboration with EDF R&D
 
 ## Past PhD students
 
