@@ -57,48 +57,84 @@ member of the [LURPA](https://lurpa.ens-paris-saclay.fr) laboratory and teacher 
 
 ## Biosketch
 
-Since 2022, I am full professor at LURPA and head of the research theme **Industry 5.0**, which
-focuses on the safety and performance of **Human-Cyber-Physical Systems (H-CPS)**. I am
-specialized in Control Theory and Behavior Identification. With a strong foundation in Computer
-Science and Electrical Engineering, I hold a PhD from INSA Lyon and an HDR from Université
-Paris-Saclay.
+<!-- Biographie à la 3e personne, pour que d'autres puissent la reprendre telle quelle
+     (programme de conférence, jury, présentation d'un exposé) : le bouton la copie. -->
+::: {#biosketch-text}
+Gregory Faraut is a Full Professor at ENS Paris-Saclay (Université Paris-Saclay) and a
+member of the LURPA laboratory. He builds faithful, up-to-date **digital twins** of complex
+systems from their observed behavior, and uses them to detect, explain and respond to
+deviations: faults, cyber-attacks or changes in human behavior. Grounded in **Discrete Event
+Systems**, his work combines formal models — automata, Petri nets, hybrid automata — with
+machine learning. Its applications range from manufacturing systems and the reverse
+engineering of legacy PLC-based control systems to the home monitoring of frail people and
+hospital clinical pathways.
 
-My research focuses on **Discrete Event Systems**, **Digital Twins** and **behavior
-identification of complex systems**, with applications to intelligent manufacturing,
-healthcare and Ambient Assisted Living (AAL). I am actively involved in professional
-activities, including editorial roles and technical committees within the IEEE Robotics and
-Automation Society.
+He received his PhD from INSA Lyon in 2010, after a stay as a research scholar at the
+University of Michigan, and his habilitation (HDR) from Université Paris-Saclay in 2022. He
+was an Associate Professor at ENS Cachan, then ENS Paris-Saclay, from 2011 to 2022. He works
+with universities in Spain, Italy, Japan and China, and with industry, from EDF R&D to
+start-ups. He was Associate Editor of the IEEE Transactions on Automation Science and
+Engineering (2022–2025) and founding co-chair of the IEEE RAS Technical Committee on
+Automation in Health Care Management (2013–2025), and heads the Master's programme in Complex
+Systems Engineering of Université Paris-Saclay.
+:::
+
+```{=html}
+<button type="button" class="copy-bio" data-target="biosketch-text"><i class="bi bi-clipboard"></i> Copy the biosketch</button>
+<script>
+document.querySelectorAll('.copy-bio').forEach(function (b) {
+  var label = b.innerHTML;
+  b.addEventListener('click', function () {
+    var text = document.getElementById(b.dataset.target).innerText.trim();
+    navigator.clipboard.writeText(text).then(function () {
+      b.innerHTML = '<i class="bi bi-check2"></i> Copied';
+      setTimeout(function () { b.innerHTML = label; }, 2000);
+    });
+  });
+});
+</script>
+```
 :::
 
 ::::
 
 ## Research themes
 
-<!-- Une carte par thème ; le lien mène à la section correspondante de research.qmd. -->
-:::: {.theme-cards}
+<!-- La figure (assets/img/research-loop.svg) et une carte par thème ; chaque carte mène à la
+     page du thème (research/…), la vue d'ensemble est sur research.qmd. -->
+:::: {.research-overview}
 
-::: {.theme-card}
-[![](assets/img/research-identification.jpg){fig-alt="Identification of a cyber-physical system from observed data"}](research.qmd#identification)
+```{=html}
+<div class="research-loop">
+{{< include assets/img/research-loop.svg >}}
+</div>
+```
 
-### [Behavior identification](research.qmd#identification)
+::: {.research-overview-cards}
 
-Building discrete-event and hybrid models of a system from its observed behavior.
+::: {.theme-card .t-identification}
+### [[1]{.theme-num} Dynamic identification](research/identification.qmd)
+
+Building, from its observed behavior, a faithful digital twin of a system — a production
+line, a legacy controller, a person at home — kept up to date over time; also for reverse
+engineering.
 :::
 
-::: {.theme-card}
-[![](assets/img/research-digital-twin.jpg){fig-alt="Digital twin architecture"}](research.qmd#digital-twins)
+::: {.theme-card .t-detection}
+### [[2]{.theme-num} Deviation detection & characterization](research/detection.qmd)
 
-### [Digital twins & H-CPS](research.qmd#digital-twins)
-
-Adaptive digital twins, diagnosis and resilience of Human-Cyber-Physical Systems.
+Detecting and explaining faults, cyber-attacks and changes in human behavior, up to
+predictive maintenance.
 :::
 
-::: {.theme-card}
-[![](assets/img/research-healthcare.png){fig-alt="Probabilistic automaton of daily-life activities"}](research.qmd#healthcare)
+::: {.theme-card .t-control}
+### [[3]{.theme-num} Resilient control](research/control.qmd)
 
-### [Healthcare & AAL](research.qmd#healthcare)
+Controlling complex systems with performance and frugality, planning multi-robot paths, and
+keeping systems operational under faults and cyber-attacks.
+:::
 
-Modeling daily-life habits in smart homes to recognize activities and detect deviations.
+[Overview of my research →](research.qmd){.more-link}
 :::
 
 ::::

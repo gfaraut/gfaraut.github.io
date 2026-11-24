@@ -5,6 +5,10 @@
   --site-canard: #007582;
   --site-filet: #D6DBDF;
   --site-fond: #F7F7F9;
+  /* Couleurs des trois thèmes de recherche (mêmes valeurs dans assets/img/research-loop.svg) */
+  --theme-identification: #7d55c7;
+  --theme-detection: #007582;
+  --theme-control: #63003C;
 }
 
 /* ---------- Publications (liste générée depuis HAL) ---------- */
@@ -107,6 +111,18 @@ body.home #title-block-header { display: none; }
 }
 .hero-link:hover { border-color: var(--site-prune); color: var(--site-prune); }
 .hero-text h2 { margin-top: 1.2rem; }
+/* Bouton « Copy the biosketch » (accueil) */
+.copy-bio {
+  margin-top: 0.2rem;
+  padding: 0.15rem 0.7rem;
+  font-size: 0.85em;
+  color: #313E48;
+  background: #fff;
+  border: 1px solid var(--site-filet);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.copy-bio:hover { border-color: var(--site-prune); color: var(--site-prune); }
 
 /* Logos des institutions : accueil (colonne de gauche) et pied de page.
    Le logo ENS a de larges marges dans son fichier : il est affiché plus haut
@@ -152,31 +168,106 @@ body.home #title-block-header { display: none; }
   .hero { grid-template-columns: 1fr; gap: 1rem; }
 }
 
-/* ---------- Cartes des thèmes de recherche (accueil) ---------- */
-.theme-cards {
+/* ---------- Thèmes de recherche : accueil (figure + cartes) ---------- */
+.research-overview {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
-  gap: 1.2rem;
+  grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+  gap: 1.5rem;
+  align-items: center;
   margin: 1rem 0 2rem;
+}
+.research-overview-cards { display: flex; flex-direction: column; gap: 0.8rem; }
+.research-overview-cards > p { margin: 0.2rem 0 0; }
+@media (max-width: 991.98px) {
+  .research-overview { grid-template-columns: 1fr; }
 }
 .theme-card {
   border: 1px solid var(--site-filet);
+  border-left: 5px solid var(--theme-color, var(--site-prune));
   border-radius: 6px;
-  padding: 0.9rem;
+  padding: 0.7rem 1rem;
   background: #fff;
-  transition: box-shadow 0.15s, border-color 0.15s;
+  transition: box-shadow 0.15s;
 }
-.theme-card:hover { border-color: var(--site-prune); box-shadow: 0 2px 10px rgba(99, 0, 60, 0.12); }
-.theme-card img {
-  width: 100%;
-  height: 170px;
-  object-fit: contain;
-  margin-bottom: 0.4rem;
-}
-.theme-card h3 { font-size: 1.1rem; margin: 0.4rem 0; border: none; }
-.theme-card h3 a { text-decoration: none; }
+.theme-card:hover { box-shadow: 0 2px 10px rgba(49, 62, 72, 0.15); }
+.theme-card h3 { font-size: 1.05rem; margin: 0 0 0.3rem; border: none; }
+.theme-card h3 a { text-decoration: none; color: var(--theme-color); }
 .theme-card p { font-size: 0.92em; color: #52616B; margin-bottom: 0; }
-.theme-card p:has(> a > img) { margin: 0; }
+
+/* Couleur propre à chaque thème (cartes, titres, pastilles numérotées) */
+.t-identification { --theme-color: var(--theme-identification); }
+.t-detection      { --theme-color: var(--theme-detection); }
+.t-control        { --theme-color: var(--theme-control); }
+.theme-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.55em;
+  height: 1.55em;
+  margin-right: 0.35em;
+  border-radius: 50%;
+  background: var(--theme-color, var(--site-prune));
+  color: #fff;
+  font-size: 0.8em;
+  font-weight: 700;
+  vertical-align: 0.12em;
+}
+.research-page section.t-identification > h2,
+.research-page section.t-detection > h2,
+.research-page section.t-control > h2 { color: var(--theme-color); }
+
+/* Figure de la boucle de recherche (SVG inséré dans la page : liens et survol actifs) */
+.research-loop svg { display: block; width: 100%; height: auto; }
+.research-loop-wide { margin: 1.2rem 0 1.5rem; }
+.research-loop a { cursor: pointer; text-decoration: none; }
+.research-loop a text { text-decoration: none; }
+.research-loop a .loop-block { transition: stroke-width 0.15s; }
+.research-loop a:hover .loop-block,
+.research-loop a:focus-visible .loop-block { stroke-width: 4; }
+.research-loop a:hover .loop-label,
+.research-loop a:focus-visible .loop-label { text-decoration: underline; }
+.research-loop a:focus { outline: none; }
+/* Petit écran : la figure garde une taille lisible et défile horizontalement. */
+@media (max-width: 767.98px) {
+  .research-loop-wide { overflow-x: auto; }
+  .research-loop-wide svg { min-width: 640px; }
+}
+/* Pages de thème : les autres thèmes sont estompés dans la figure. */
+.theme-identification .research-loop .loop-theme:not(.t-identification),
+.theme-detection .research-loop .loop-theme:not(.t-detection),
+.theme-control .research-loop .loop-theme:not(.t-control) { opacity: 0.3; }
+.research-loop .loop-theme:hover { opacity: 1; }
+
+/* Pages de thème : titre à la couleur du thème, navigation en bas de page */
+body.theme-identification { --theme-color: var(--theme-identification); }
+body.theme-detection      { --theme-color: var(--theme-detection); }
+body.theme-control        { --theme-color: var(--theme-control); }
+body.theme-page #title-block-header h1.title { color: var(--theme-color); }
+body.theme-page main li { margin-bottom: 0.7rem; }
+.theme-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.6rem 1.5rem;
+  margin-top: 2.5rem;
+  padding-top: 0.8rem;
+  border-top: 1px solid var(--site-filet);
+  font-weight: 600;
+}
+.theme-nav a { text-decoration: none; }
+
+/* Domaine d'application (étiquette après le titre d'une publication choisie) */
+.domain-tag {
+  display: inline-block;
+  padding: 0.05rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.75em;
+  font-weight: 600;
+  white-space: nowrap;
+  vertical-align: 0.1em;
+}
+.domain-industry { color: #34495E; background: #E6ECF0; }
+.domain-human    { color: #8A4B0F; background: #FBEEE0; }
 
 /* ---------- Dernières publications (accueil) ---------- */
 .recent-pubs {
@@ -196,14 +287,14 @@ body.home #title-block-header { display: none; }
 .recent-pub-venue { font-size: 0.88em; color: #52616B; }
 .more-link { font-weight: 600; text-decoration: none; }
 
-/* ---------- Page Recherche ---------- */
+/* ---------- Pages Recherche : illustrations ---------- */
 .axis-figure img { max-height: 260px; width: auto; max-width: 100%; }
 
 /* ---------- Pages Projets et Service : un peu d'air entre les éléments ---------- */
 body.projects-page main li, body.service-page main li { margin-bottom: 0.9rem; }
 body.projects-page main li em, body.service-page main li em { font-size: 0.9em; color: #52616B; }
 
-/* Phrase d'apport sous chaque publication choisie (page Recherche) */
+/* Phrase d'apport sous chaque publication choisie (pages de thème) */
 .contribution { display: inline-block; font-size: 0.92em; color: #52616B; margin-bottom: 0.4rem; }
 
 /* ---------- Page Équipe : rejoindre l'équipe, offres à échéance ---------- */

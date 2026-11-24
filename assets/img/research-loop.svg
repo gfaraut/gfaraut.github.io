@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 470" class="research-loop-svg" font-family="'Open Sans', Arial, sans-serif" font-size="15" role="group" aria-labelledby="loop-title loop-desc">
+  <!--
+    Figure de la page Research, reprise sur l'accueil et sur chaque page de thème
+    (insérée telle quelle dans la page : les liens et le survol fonctionnent).
+    Modifiable avec Inkscape ou un éditeur de texte.
+    Couleurs : thème 1 identification #7d55c7, thème 2 détection #007582,
+    thème 3 commande #63003C ; traits et blocs neutres #313E48 / #52616B.
+    Chaque groupe <a class="loop-theme ..."> renvoie à la page de son thème
+    (adresse absolue, valable depuis toutes les pages du site).
+  -->
+  <title id="loop-title">Research loop</title>
+  <desc id="loop-desc">A Human-Cyber-Physical-Social System is controlled to meet its requirements. Its digital twin is built by dynamic identification (theme 1). Comparing the system with its twin detects deviations, which are characterized (theme 2): digital twin update, fault and cyber-attack detection, explainability of deviations, understandable communication, reverse engineering, behavior equivalence and, as a perspective, the mental workload of a human assessed with a human digital twin. These results feed the resilient control of the system (theme 3).</desc>
+
+  <defs>
+    <marker id="loop-arrow" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="10" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#313E48"/>
+    </marker>
+    <marker id="loop-arrow-small" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="7" markerHeight="7" markerUnits="userSpaceOnUse" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#63003C"/>
+    </marker>
+    <marker id="loop-arrow-t1" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="16" markerHeight="16" markerUnits="userSpaceOnUse" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#7d55c7"/>
+    </marker>
+    <marker id="loop-arrow-t2" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#007582"/>
+    </marker>
+    <marker id="loop-arrow-t3" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#63003C"/>
+    </marker>
+    <!-- Pictogramme du système (usine + personne), repris en pointillés dans le jumeau. -->
+    <symbol id="loop-hcps" viewBox="0 0 120 60">
+      <path d="M4,58 V30 L24,18 V30 L44,18 V30 L64,18 V58 Z"/>
+      <rect x="14" y="40" width="9" height="9"/>
+      <rect x="30" y="40" width="9" height="9"/>
+      <rect x="46" y="40" width="9" height="9"/>
+      <circle cx="96" cy="24" r="8"/>
+      <path d="M82,58 V48 a14,12 0 0 1 28,0 V58 Z"/>
+    </symbol>
+  </defs>
+
+  <!-- ===== Blocs et liaisons neutres ===== -->
+  <g class="loop-neutral" fill="none" stroke="#313E48" stroke-width="2">
+    <!-- Exigences → commande → système → objectifs -->
+    <path d="M90,95 H198" marker-end="url(#loop-arrow)"/>
+    <path d="M330,95 H448" marker-end="url(#loop-arrow)"/>
+    <path d="M600,95 H944" marker-end="url(#loop-arrow)"/>
+    <!-- Commande → jumeau numérique -->
+    <path d="M390,95 V265 H448" marker-end="url(#loop-arrow)"/>
+    <!-- Sorties du système et du jumeau → comparateur -->
+    <path d="M780,95 V246" marker-end="url(#loop-arrow)"/>
+    <path d="M600,265 H761" marker-end="url(#loop-arrow)"/>
+    <!-- Résultats de la caractérisation -->
+    <path d="M360,399 H310"/>
+    <path d="M310,409 V217"/>
+    <path d="M310,217 H282" marker-end="url(#loop-arrow)"/>
+    <path d="M310,249 H282" marker-end="url(#loop-arrow)"/>
+    <path d="M310,281 H282" marker-end="url(#loop-arrow)"/>
+    <path d="M310,313 H282" marker-end="url(#loop-arrow)"/>
+    <path d="M310,345 H282" marker-end="url(#loop-arrow)"/>
+    <path d="M310,377 H282" marker-end="url(#loop-arrow)"/>
+    <path d="M310,409 H282" marker-end="url(#loop-arrow)"/>
+  </g>
+  <g fill="#313E48">
+    <circle cx="390" cy="95" r="4"/>
+    <circle cx="780" cy="95" r="4"/>
+    <circle cx="310" cy="217" r="4"/>
+  </g>
+
+  <!-- Exigences (humain) -->
+  <g fill="#313E48">
+    <circle cx="60" cy="78" r="10"/>
+    <path d="M42,108 a18,16 0 0 1 36,0 Z"/>
+  </g>
+  <text x="60" y="130" text-anchor="middle" fill="#313E48">Requirements</text>
+
+  <!-- Système physique (HCPSS) -->
+  <text x="525" y="22" text-anchor="middle" font-weight="700" fill="#313E48">Human-Cyber-Physical-Social System</text>
+  <text x="525" y="40" text-anchor="middle" font-size="13" fill="#52616B">(physical asset)</text>
+  <rect x="450" y="50" width="150" height="90" rx="8" fill="#F7F7F9" stroke="#313E48" stroke-width="2"/>
+  <use href="#loop-hcps" x="465" y="65" width="120" height="60" fill="#52616B"/>
+
+  <!-- Objectifs -->
+  <text x="850" y="62" text-anchor="middle" font-size="14" fill="#52616B">Objectives:</text>
+  <text x="850" y="80" text-anchor="middle" font-size="14" fill="#313E48">performance &amp; frugality</text>
+
+  <!-- Jumeau numérique -->
+  <rect x="450" y="220" width="150" height="90" rx="8" fill="#F7F7F9" stroke="#313E48" stroke-width="2"/>
+  <rect x="470" y="228" width="110" height="64" rx="4" fill="#fff" stroke="#313E48" stroke-width="2"/>
+  <path d="M515,292 h20 l4,10 h-28 z" fill="#313E48"/>
+  <use href="#loop-hcps" x="482" y="237" width="86" height="43" fill="none" stroke="#52616B" stroke-width="2" stroke-dasharray="4 3"/>
+  <text x="525" y="330" text-anchor="middle" font-weight="700" fill="#313E48">Digital twin</text>
+  <text x="525" y="347" text-anchor="middle" font-size="13" fill="#52616B">(digital asset)</text>
+
+  <!-- Résultats de la caractérisation : cyber-résilience.
+       Cadre en pointillés = perspective (travail encore peu engagé). -->
+  <text x="150" y="180" text-anchor="middle" font-size="14" font-style="italic" fill="#52616B">Cyber-resilience of critical systems</text>
+  <path d="M22,200 q0,-6 8,-6 h112 q8,0 8,-6 q0,6 8,6 h112 q8,0 8,6" fill="none" stroke="#52616B" stroke-width="1.5"/>
+  <g fill="#fff" stroke="#52616B" stroke-width="1.5">
+    <rect x="20" y="204" width="260" height="26" rx="4"/>
+    <rect x="20" y="236" width="260" height="26" rx="4"/>
+    <rect x="20" y="268" width="260" height="26" rx="4"/>
+    <rect x="20" y="300" width="260" height="26" rx="4"/>
+    <rect x="20" y="332" width="260" height="26" rx="4"/>
+    <rect x="20" y="364" width="260" height="26" rx="4"/>
+    <rect x="20" y="396" width="260" height="26" rx="4" stroke-dasharray="5 3"/>
+  </g>
+  <g font-size="14" fill="#313E48" text-anchor="middle">
+    <text x="150" y="222">Digital twin update</text>
+    <text x="150" y="254">Fault &amp; cyber-attack detection</text>
+    <text x="150" y="286">Explainability of deviations</text>
+    <text x="150" y="318">Understandable communication</text>
+    <text x="150" y="350">Reverse engineering</text>
+    <text x="150" y="382">Behavior equivalence</text>
+    <text x="150" y="414" font-style="italic" fill="#52616B">Human mental workload (perspective)</text>
+  </g>
+
+  <!-- ===== Thème 3 : commande résiliente ===== -->
+  <a href="/research/control.html" class="loop-theme t-control">
+    <title>3 · Resilient control</title>
+    <rect class="loop-hit" x="186" y="18" width="160" height="132" fill="#fff" fill-opacity="0"/>
+    <!-- Retour des résultats vers la commande -->
+    <path d="M310,213 V144" fill="none" stroke="#63003C" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#loop-arrow-t3)"/>
+    <text class="loop-label" x="265" y="33" text-anchor="middle" font-weight="700" fill="#63003C">Resilient control</text>
+    <rect class="loop-block" x="200" y="50" width="130" height="90" rx="8" fill="#fff" stroke="#63003C" stroke-width="2.5"/>
+    <g fill="none" stroke="#63003C" stroke-width="1.8">
+      <circle cx="232" cy="76" r="8" fill="#63003C"/>
+      <circle cx="298" cy="76" r="8"/>
+      <circle cx="298" cy="116" r="8"/>
+      <circle cx="232" cy="116" r="8"/>
+      <path d="M241,76 H288" marker-end="url(#loop-arrow-small)"/>
+      <path d="M298,85 V106" marker-end="url(#loop-arrow-small)"/>
+      <path d="M289,116 H242" marker-end="url(#loop-arrow-small)"/>
+      <path d="M232,107 V86" marker-end="url(#loop-arrow-small)"/>
+      <path d="M240,110 L289,82" marker-end="url(#loop-arrow-small)"/>
+    </g>
+    <circle cx="200" cy="50" r="12" fill="#63003C"/>
+    <text x="200" y="55" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">3</text>
+  </a>
+
+  <!-- ===== Thème 1 : identification dynamique ===== -->
+  <a href="/research/identification.html" class="loop-theme t-identification">
+    <title>1 · Dynamic identification</title>
+    <rect class="loop-hit" x="505" y="142" width="250" height="74" fill="#fff" fill-opacity="0"/>
+    <path class="loop-block" d="M525,141 V216" fill="none" stroke="#7d55c7" stroke-width="4" marker-end="url(#loop-arrow-t1)"/>
+    <circle cx="555" cy="178" r="12" fill="#7d55c7"/>
+    <text x="555" y="183" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">1</text>
+    <text class="loop-label" x="573" y="183" font-weight="700" fill="#7d55c7">Dynamic identification</text>
+  </a>
+
+  <!-- ===== Thème 2 : détection et caractérisation des déviations ===== -->
+  <a href="/research/detection.html" class="loop-theme t-detection">
+    <title>2 · Deviation detection &amp; characterization</title>
+    <rect class="loop-hit" x="752" y="236" width="150" height="60" fill="#fff" fill-opacity="0"/>
+    <rect class="loop-hit" x="340" y="352" width="200" height="118" fill="#fff" fill-opacity="0"/>
+    <!-- Comparateur -->
+    <circle class="loop-block" cx="780" cy="265" r="17" fill="#fff" stroke="#007582" stroke-width="2.5"/>
+    <path d="M768,253 L792,277 M792,253 L768,277" stroke="#007582" stroke-width="2"/>
+    <text x="764" y="242" text-anchor="middle" font-size="16" font-weight="700" fill="#313E48">+</text>
+    <text x="748" y="258" text-anchor="middle" font-size="16" font-weight="700" fill="#313E48">−</text>
+    <text class="loop-label" x="808" y="262" font-weight="700" fill="#007582">Deviation</text>
+    <text class="loop-label" x="808" y="280" font-weight="700" fill="#007582">detection</text>
+    <!-- Comparateur → caractérisation -->
+    <path d="M780,282 V399 H472" fill="none" stroke="#007582" stroke-width="2" marker-end="url(#loop-arrow-t2)"/>
+    <!-- Caractérisation -->
+    <rect class="loop-block" x="360" y="364" width="110" height="70" rx="8" fill="#fff" stroke="#007582" stroke-width="2.5"/>
+    <g fill="#9AA5AD">
+      <rect x="376" y="412" width="9" height="14"/>
+      <rect x="389" y="400" width="9" height="26"/>
+      <rect x="402" y="388" width="9" height="38" fill="#007582"/>
+      <rect x="415" y="406" width="9" height="20"/>
+    </g>
+    <circle cx="440" cy="390" r="12" fill="#fff" fill-opacity="0.6" stroke="#007582" stroke-width="3"/>
+    <path d="M449,399 L459,409" stroke="#007582" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="360" cy="364" r="12" fill="#007582"/>
+    <text x="360" y="369" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">2</text>
+    <text class="loop-label" x="415" y="458" text-anchor="middle" font-weight="700" fill="#007582">Deviation characterization</text>
+  </a>
+</svg>

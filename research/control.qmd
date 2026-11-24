@@ -1,0 +1,73 @@
+---
+title: "Resilient control"
+subtitle: "Theme 3 · Performance, frugality and resilience to faults and attacks"
+body-classes: theme-page theme-control
+---
+
+<!--
+  MODE D'EMPLOI : voir en tête de research/identification.qmd (même plan, même format).
+-->
+
+```{=html}
+<div class="research-loop research-loop-wide">
+{{< include ../assets/img/research-loop.svg >}}
+</div>
+```
+
+## The problem
+
+Control closes the loop: the controller must keep the system within its requirements. Here,
+resilience is understood broadly: controlling very complex systems with today's performance
+criteria, such as frugality; planning the paths of teams of robots or drones; keeping the
+system in operational condition when faults occur, which calls for maintenance, repair and the
+reconfiguration of its control; and withstanding cyber-attacks on actuators and sensors.
+Supervisory Control Theory provides controllers that are correct by construction, but its
+classical setting assumes a single, reliable model. My work extends it, with the help of the
+digital twin, to systems that are concurrent, switch between modes, are reconfigured or are
+attacked, and to high-level tasks expressed in temporal logics.
+
+## Contributions
+
+- **Concurrent controllers for complex systems.** Higher-dimensional automata, a model of
+  non-interleaving concurrency, to turn controllers specified as interpreted Petri nets into
+  closed-loop controllers and reveal ambiguous or contradictory specifications.
+- **Multi-robot path planning with temporal logics.** Counting Time Temporal Logic, which
+  counts how many times a sub-task is satisfied, solved by integer linear programming and
+  tested on mobile robots, with Shanghai Jiao Tong University (Xiang Yin) and the University of
+  Zaragoza (Cristian Mahulea); path planning for drones is explored in MSc internships with
+  Osaka Metropolitan University (Kai Cai). The same logics plan the daily activities of older
+  people at home according to medical recommendations.
+- **Reconfiguration and safe mode switching.** Each operating mode is designed separately,
+  then the conflicts between modes are resolved to obtain ready-to-use control laws, with the
+  conditions under which this multi-model approach behaves like the centralized one; control
+  laws are reconfigured when the system changes, for instance after a fault.
+- **Resilience to cyber-attacks.** Supervisors that withstand a prescribed number of attacks
+  on actuators and on sensors, with Osaka Metropolitan University (Kai Cai); reconfiguration of
+  the control of a cyber-physical system under attack, using its digital twin.
+
+## Related PhD theses and projects
+
+**PhD theses** — Romain Thibert (2022–2026), Peng Lv (visiting PhD student, 2025), and my own
+PhD thesis on safe mode switching (Ampère lab, INSA Lyon); see [Supervision](../team.qmd).
+
+**Projects** — CHAAT; see [Projects](../projects.qmd).
+
+## Selected publications
+
+- [Supervisory Control Under Indefinite Actuator and Sensor Attacks: Prescribed Resilience](https://doi.org/10.1109/tac.2026.3665131) — *IEEE Transactions on Automatic Control*, 2026. [Industrial & critical systems]{.domain-tag .domain-industry}\
+  [Designs supervisors with a prescribed resilience: each unsafe state is protected against a given number of attacks on actuators and on sensors.]{.contribution}
+- [Automatic Activity Planning Based on Activity Daily Living and Quality of Life Recommendations](https://doi.org/10.1109/wodes69290.2026.11598225) — *WODES*, 2026. [Human & health]{.domain-tag .domain-human}\
+  [Combines probabilistic models of a person's daily activities with medical recommendations to propose a personalized activity program, using variants of linear temporal logic.]{.contribution}
+- [Interpreted Higher-Dimensional Automata for Concurrent Discrete-Event Control](https://doi.org/10.1109/wodes69290.2026.11598183) — *WODES*, 2026. [Industrial & critical systems]{.domain-tag .domain-industry}\
+  [Uses higher-dimensional automata to turn controllers given as interpreted Petri nets into closed-loop controllers, revealing ambiguous or contradictory specifications.]{.contribution}
+- [Counting Time Temporal Logic for Multi-Robot Path Planning in Finite Horizons](https://doi.org/10.1109/tase.2025.3636053) — *IEEE T-ASE*, 2025.\
+  [Extends linear temporal logic to count how many times a sub-task is satisfied, and solves the resulting multi-robot path planning problem by integer linear programming.]{.contribution}
+- [Equivalence of behaviors between centralized and multi-model approaches](https://hal.science/hal-00759500) — *IEEE CASE*, 2011. [Industrial & critical systems]{.domain-tag .domain-industry}\
+  [Gives the conditions under which the multi-model approach, with smaller models, yields the same controlled behavior as the centralized one.]{.contribution}
+- [Formal Approach to Multimodal Control Design: Application to Mode Switching](https://hal.science/hal-00471885) — *IEEE Transactions on Industrial Informatics*, 2009. [Industrial & critical systems]{.domain-tag .domain-industry}\
+  [A supervisory-control framework to design each operating mode separately, then resolve the conflicts between modes to obtain ready-to-use control laws.]{.contribution}
+
+::: {.theme-nav}
+[← Theme 2: Deviation detection & characterization](detection.qmd)
+[Back to the research overview →](../research.qmd)
+:::

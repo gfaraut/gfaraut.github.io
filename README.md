@@ -37,7 +37,9 @@ git push                      # publication automatique
 | ajouter une publication pas encore référencée | `data/publications-manual.yml` | modèle en tête du fichier ; supprimer l'entrée quand l'article arrive sur HAL |
 | informations JCR et quartile SJR des revues | `data/journals.csv` | conservées mais **non affichées** (choix DORA, voir plus bas) |
 | masquer une publication attribuée à tort par OpenAlex | `scripts/publications.py` | ajouter son DOI dans `EXCLUDE_DOIS` |
-| modifier un thème de recherche, une publication choisie | `research.qmd` | une phrase d'apport par publication ; mode d'emploi en tête du fichier ; carte correspondante dans `index.qmd` |
+| modifier la présentation de la recherche | `research.qmd` | vue d'ensemble et résumé de chaque thème ; cartes correspondantes dans `index.qmd` (bloc `{.research-overview}`) |
+| modifier un thème, une publication choisie | `research/identification.qmd`, `research/detection.qmd`, `research/control.qmd` | une page par thème ; une phrase d'apport et une étiquette de domaine par publication ; mode d'emploi en tête de `research/identification.qmd` |
+| modifier la figure de la recherche | `assets/img/research-loop.svg` | Inkscape ou éditeur de texte ; reprise telle quelle sur l'accueil, la page Research et les pages de thème |
 | modifier la biographie, les anciens postes | `index.qmd` | |
 | modifier les mots-clés de l'accueil | `index.qmd` | bloc `{.keywords}` : un mot-clé par ligne ; garder la même liste que sur ORCID et HAL |
 | modifier le CV, le contact, l'enseignement | `cv.qmd`, `contact.qmd`, `teaching.qmd` | responsabilités pédagogiques : `teaching.qmd` ; activités de service : `service.qmd` seulement (le CV y renvoie) |
@@ -75,7 +77,8 @@ git push                      # publication automatique
 | `_templates/offers.ejs` | offres en cours, sur la page Supervision (écarte les offres expirées) |
 | `styles.css` | règles propres au site (le thème vient du socle `lurpa`) |
 | `_extensions/lurpa/` | socle Quarto LURPA (format `lurpa-html`) |
-| `assets/` | images et logos |
+| `research/` | une page par thème de recherche |
+| `assets/` | images et logos ; `assets/img/research-loop.svg` : figure de la recherche, aux liens cliquables |
 | `.github/workflows/publish.yml` | construction et mise en ligne : à chaque envoi sur `main` et chaque lundi |
 | `googlefc2dcb7edf7908b6.html` | vérification Google Search Console, à garder |
 
@@ -86,7 +89,7 @@ Les anciennes adresses (`content/*.html`) redirigent vers les nouvelles pages gr
 
 Le site suit la [déclaration DORA](https://sfdora.org/read/), signée par l'Université
 Paris-Saclay en 2022 : ni indicateur de revue (facteur d'impact, quartile), ni nombre de
-citations. Chaque publication choisie de `research.qmd` est présentée par ce qu'elle apporte.
+citations. Chaque publication choisie des pages de thème (`research/`) est présentée par ce qu'elle apporte.
 Les informations JCR et SJR restent dans `data/journals.csv` pour les dossiers qui les
 exigent ; `_templates/publications.ejs` explique comment les réafficher.
 
