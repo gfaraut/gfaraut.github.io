@@ -39,6 +39,7 @@ git push                      # publication automatique
 | modifier la biographie, les anciens postes | `index.qmd` | |
 | modifier les mots-clés de l'accueil | `index.qmd` | bloc `{.keywords}` : un mot-clé par ligne ; garder la même liste que sur ORCID et HAL |
 | modifier le CV, le contact, l'enseignement | `cv.qmd`, `contact.qmd`, `teaching.qmd` | |
+| modifier les logos des institutions | `index.qmd` (bloc `{.hero-logos}`) et `_quarto.yml` (`page-footer:`) | fichiers officiels dans `assets/`, à ne pas retoucher ; tailles dans `styles.css` |
 | ajouter une image | `assets/img/` | puis dans la page : `![](assets/img/mon-image.jpg)` |
 | ajouter une page | nouveau fichier `ma-page.qmd` | puis l'ajouter au menu, section `navbar:` de `_quarto.yml` |
 

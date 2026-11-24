@@ -108,6 +108,28 @@ body.home #title-block-header { display: none; }
 .hero-link:hover { border-color: var(--site-prune); color: var(--site-prune); }
 .hero-text h2 { margin-top: 1.2rem; }
 
+/* Logos des institutions : accueil (colonne de gauche) et pied de page.
+   Le logo ENS a de larges marges dans son fichier : il est affiché plus haut
+   pour que son texte ait la même taille apparente que les deux autres. */
+.hero-logos p {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem 1rem;
+  margin: 1.2rem 0 0;
+}
+.hero-logos img { width: auto; }
+.hero-logos .logo-ups   { height: 2.8rem; }
+.hero-logos .logo-ens   { height: 4.4rem; }
+.hero-logos .logo-lurpa { height: 2.8rem; }
+
+.nav-footer-right p { display: flex; align-items: center; gap: 1rem; margin: 0; }
+.nav-footer img { width: auto; vertical-align: middle; }
+.nav-footer .logo-ups   { height: 2rem; }
+.nav-footer .logo-ens   { height: 3rem; }
+.nav-footer .logo-lurpa { height: 2rem; }
+
 /* Mots-clés (accueil) : une liste Markdown affichée en pastilles */
 .keywords ul {
   list-style: none;

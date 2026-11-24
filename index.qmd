@@ -29,6 +29,13 @@ listing:
 [<i class="bi bi-journal-text"></i> HAL](https://cv.hal.science/gfaraut){.hero-link}
 [<i class="bi bi-person-badge"></i> ORCID](https://orcid.org/0000-0003-0388-932X){.hero-link}
 [<i class="bi bi-building"></i> LURPA](https://lurpa.ens-paris-saclay.fr){.hero-link}
+
+<!-- Logos officiels des institutions (fichiers dans assets/, à ne pas retoucher). -->
+::: {.hero-logos}
+[![Université Paris-Saclay](assets/logo-universite-paris-saclay.png){.logo-ups}](https://www.universite-paris-saclay.fr/)
+[![ENS Paris-Saclay](assets/logo-ens-paris-saclay.png){.logo-ens}](https://ens-paris-saclay.fr)
+[![LURPA](assets/logo-lurpa.png){.logo-lurpa}](https://lurpa.ens-paris-saclay.fr)
+:::
 :::
 
 ::: {.hero-text}

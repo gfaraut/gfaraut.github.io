@@ -8,6 +8,8 @@ project:
   resources:
     # Vérification Google Search Console : doit rester à la racine du site.
     - googlefc2dcb7edf7908b6.html
+    # Logos du pied de page (servis même si aucune page ne les cite).
+    - assets/logo-*.png
 
 lang: en
 
@@ -48,11 +50,11 @@ website:
         aria-label: ORCID
   page-footer:
     left: "© 2026 Gregory Faraut — ENS Paris-Saclay, LURPA"
-    right:
-      - text: LURPA
-        href: https://lurpa.ens-paris-saclay.fr
-      - text: ENS Paris-Saclay
-        href: https://ens-paris-saclay.fr
+    # Logos des institutions, sur toutes les pages.
+    right: >-
+      [![Université Paris-Saclay](/assets/logo-universite-paris-saclay.png){.logo-ups}](https://www.universite-paris-saclay.fr/)
+      [![ENS Paris-Saclay](/assets/logo-ens-paris-saclay.png){.logo-ens}](https://ens-paris-saclay.fr)
+      [![LURPA](/assets/logo-lurpa.png){.logo-lurpa}](https://lurpa.ens-paris-saclay.fr)
 
 format:
   lurpa-html:
