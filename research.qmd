@@ -3,7 +3,6 @@ title: "Research"
 aliases:
   - content/01_research.html
   - content/011_research.html
-  - content/014_projects.html
 ---
 
 <!--

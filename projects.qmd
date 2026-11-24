@@ -1,0 +1,59 @@
+---
+title: "Research projects"
+aliases:
+  - content/014_projects.html
+body-classes: projects-page
+---
+
+<!--
+  MODE D'EMPLOI
+  Chaque projet = 2 ou 3 lignes : toutes finissent par une barre oblique inverse (\),
+  sauf la dernière ; les lignes suivant la première sont décalées de 4 espaces.
+
+  - **ACRONYME** — Title of the project (début–fin)\
+      *Financeur · partenaires, coordinateur marqué (coord.) · budget global du projet*\
+      Résumé du projet et, s'il y a lieu, ce que la collaboration a produit (facultatif).
+
+  Ni rôle (porteur, co-porteur, participant…) ni part du LURPA : un projet avance grâce
+  à plusieurs personnes. Ces informations sont réservées aux dossiers internes
+  (HCERES, promotion…), comme les facteurs d'impact.
+  Budget global indiqué seulement à partir de 80 k€.
+  Titres et résumés en anglais.
+  Projet terminé : déplacer le bloc de « Current » vers « Past » (ordre : plus récent en haut).
+-->
+
+I take part in the following collaborative research projects, funded by national,
+international and local programmes, with academic and industrial partners.
+
+## Current projects
+
+- **OPTIMA-DTMS** — Optimal Maintenance of Systemic Digital Twins of Manufacturing Systems (2026–2030)\
+    *ANR PRCE · LURPA (coord.), Systemic Intelligence Group · budget 497.6 k€*\
+    Methods and tools to update the digital twin of a production system when the system evolves, at a cost far below that of its initial design.
+- **CHAAT** — Concurrency and Higher-dimensional Automata: Applications and Theory (2026–2030)\
+    *ANR PRC · LMF (coord.), LRE (EPITA), IRIF, LIX (École polytechnique), SAMOVAR (Télécom SudParis) · budget 672.5 k€*\
+    Theory and tools for higher-dimensional automata, a model of non-interleaving concurrency, with applications to verification and concurrent controllers.
+- **Reverse engineering of PLC-based systems** — CIFRE PhD with EDF R&D (2026–2029)\
+    *ANRT CIFRE · EDF R&D, LURPA*\
+    A formal approach to the reverse engineering of timed logic systems based on programmable logic controllers.
+
+## Past projects
+
+- **VALIDATOR** — Evaluation and optimization of clinical pathways using formal methods (2022–2024)\
+    *Spanish State Research Agency (AEI), Ecological and Digital Transition programme · University of Zaragoza (coord.), Clinical Hospital of Zaragoza, Université Paris-Saclay, University of Cagliari · budget 115 k€*\
+    Petri net models of clinical pathways, built with the physicians of the Clinical Hospital of Zaragoza, to evaluate them and shorten hospital stays.
+- **PRECAPPAQUO** — Preventing depressive disorders through everyday gestures with a communicating patch sensor (2020–2021)\
+    *Labex LaSIPS · GEEPS (coord.), LURPA, C2N*
+- **Exoman** — Towards exoskeleton-human symbiosis: investigating how humans interact with an upper-limb robotic exoskeleton (2019–2024)\
+    *ANR · CIAMS (coord.), CEA List, ISIR, LURPA · budget 562.9 k€*
+- **ProMAut** — Process Mining and System Identification in Automatic Control (2019–2020)\
+    *Institut Farman (FR CNRS 3311) · LURPA, LSV*
+- **Franco-Bavarian project** — Artificial Intelligence techniques for fault detection and activity recognition in the context of Ambient Assisted Living (2017–2019)\
+    *Bavarian-French University Cooperation Centre (BFHZ-CCUFB) · LURPA, Technical University of Munich*
+- **ITSCABA** — Identification of a task supervised by ambient binary sensors (2017–2018)\
+    *Institut Farman (FR CNRS 3311) · LURPA, CMLA*
+- **5P** — Personalised participatory prevention pathway (2016–2020)\
+    *CGSS La Réunion, IDEX Sorbonne Paris Cité · Cognac-G and IRD (coord.), CMLA, LURPA, CHU La Réunion, CCAS La Réunion, SATT IdF Innov, ENGIE Ineo Digital*\
+    Assessing the mobility of frail people to personalise their care pathway; the home-monitoring algorithms developed in the project were industrialised by ENGIE Ineo Digital in its Smartflat product.
+- **CARNAVAL** — Ambient sensors for activity recognition and monitoring at the Val-de-Grâce hospital (2016–2017)\
+    *Institut Farman (FR CNRS 3311) · LURPA, CMLA*

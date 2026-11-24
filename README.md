@@ -30,6 +30,7 @@ git push                      # publication automatique
 | Je veux… | Où | Comment |
 |---|---|---|
 | ajouter ou déplacer un doctorant, un stagiaire | `team.qmd` | copier un bloc de deux lignes ; mode d'emploi en tête du fichier |
+| ajouter un projet, passer un projet en « Past » | `projects.qmd` | copier un bloc de deux ou trois lignes ; budget global seulement, ni rôle ni part LURPA ; mode d'emploi en tête du fichier |
 | publier une offre de stage ou de thèse | `data/offers.yml` | modèle en tête du fichier ; l'offre disparaît seule après sa date `expires` |
 | ajouter une publication | rien à faire | déposée sur HAL (ou référencée par OpenAlex), elle apparaît à la reconstruction du lundi ; pour l'avoir tout de suite : *Actions* → *Publish site* → *Run workflow* |
 | ajouter une publication pas encore référencée | `data/publications-manual.yml` | modèle en tête du fichier ; supprimer l'entrée quand l'article arrive sur HAL |
