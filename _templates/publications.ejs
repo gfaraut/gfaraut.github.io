@@ -10,8 +10,10 @@
     <div class="pub-venue listing-venue"><% if (item.venue) { %><em><%= item.venue %></em><%= item["venue_rest"] ? ", " : "" %><% } %><%= item["venue_rest"] %></div>
     <div class="pub-links">
       <span class="pub-type"><%= item.categories[0] %></span>
-      <% if (item.jcr) { %><span class="pub-rank" title="Journal listed in the Journal Citation Reports (Clarivate)">JCR</span><% } %>
-      <% if (item.sjr) { %><span class="pub-rank" title="SCImago Journal Rank, best quartile"><%= "SJR " + item.sjr %></span><% } %>
+      <% /* Badges de revue (JCR, quartile SJR) volontairement non affichés : voir la note
+            DORA de publications.qmd. Les champs item.jcr et item.sjr restent calculés depuis
+            data/journals.csv ; pour les réafficher, ajouter ici un span de classe pub-rank
+            conditionné par item.jcr ou item.sjr. */ %>
       <% if (item.pdf) { %><a href="<%- item.pdf %>">PDF</a><% } %>
       <% if (item.doi) { %><a href="<%- item.doi %>">DOI</a><% } %>
       <% if (item.hal) { %><a href="<%- item.hal %>">HAL</a><% } %>

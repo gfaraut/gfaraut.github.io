@@ -60,7 +60,7 @@ HAL_TYPES = {
     "PATENT": "Patents",
 }
 HAL_FIELDS = [
-    "halId_s", "uri_s", "docType_s", "producedDateY_i", "title_s", "authFullName_s",
+    "halId_s", "uri_s", "docType_s", "producedDateY_i", "producedDate_s", "title_s", "authFullName_s",
     "citationRef_s", "doiId_s", "fileMain_s", "journalTitle_s", "journalIssn_s", "journalEissn_s",
 ]
 # Types OpenAlex retenus (éditoriaux, dépôts d'archives… sont ignorés).
@@ -85,6 +85,17 @@ def norm(title: str) -> str:
 
 def bare_doi(doi: str) -> str:
     return re.sub(r"^https?://(dx\.)?doi\.org/", "", (doi or "").strip().lower())
+
+
+def full_date(value: str, year: int) -> str:
+    """« 2024 », « 2024-04 » ou « 2024-04-29 » → « 2024-04-29 » (premier jour si imprécis).
+
+    La date exacte sert au tri : plus récentes d'abord, y compris au sein d'une même année.
+    """
+    m = re.match(r"(\d{4})(?:-(\d{2}))?(?:-(\d{2}))?", value or "")
+    if not m or int(m.group(1)) != year:
+        return f"{year}-01-01"
+    return f"{m.group(1)}-{m.group(2) or '01'}-{m.group(3) or '01'}"
 
 
 def canon_authors(names: list[str]) -> list[str]:
@@ -151,7 +162,7 @@ def hal_item(d: dict, journals: list[dict], missing: set) -> dict:
     title = d["title_s"][0] if isinstance(d.get("title_s"), list) else d.get("title_s", "")
     item = {
         "title": title,
-        "date": f"{year}-01-01",
+        "date": full_date(d.get("producedDate_s", ""), year),
         "year": str(year),
         "categories": [HAL_TYPES.get(d.get("docType_s"), "Other")],
         "authors": canon_authors(d.get("authFullName_s", [])),
@@ -189,7 +200,7 @@ def fetch_openalex() -> list[dict]:
     params = {
         "filter": f"author.orcid:{ORCID}",
         "per-page": 200,
-        "select": "doi,title,publication_year,type,primary_location,authorships,biblio",
+        "select": "doi,title,publication_year,publication_date,type,primary_location,authorships,biblio",
     }
     return get_json("https://api.openalex.org/works?" + urllib.parse.urlencode(params))["results"]
 
@@ -210,7 +221,7 @@ def openalex_item(w: dict, journals: list[dict], missing: set) -> dict | None:
             str(year)]
     item = {
         "title": html.unescape(w["title"]),
-        "date": f"{year}-01-01",
+        "date": full_date(w.get("publication_date", ""), year),
         "year": str(year),
         "categories": [category],
         "authors": canon_authors([a["author"]["display_name"] for a in w.get("authorships", [])]),
@@ -260,7 +271,7 @@ def main() -> None:
         known_dois.add(doi)
         known_titles.add(norm(it["title"]))
 
-    items.sort(key=lambda i: i["year"], reverse=True)
+    items.sort(key=lambda i: i["date"], reverse=True)
     OUT.parent.mkdir(exist_ok=True)
     # Le JSON est du YAML valide : pas de dépendance à PyYAML.
     OUT.write_text(json.dumps(items, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")

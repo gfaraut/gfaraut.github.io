@@ -1,0 +1,13 @@
+```{=html}
+<%/* Les dernières publications sur l'accueil : version compacte de publications.ejs. */%>
+<div class="list recent-pubs">
+<% for (const item of items) { %>
+<% const link = item.doi || item.hal || item.pdf; %>
+<div class="recent-pub" <%= metadataAttrs(item) %>>
+  <div class="recent-pub-meta"><%= item.year %> · <%= item.categories[0] %></div>
+  <div class="recent-pub-title"><% if (link) { %><a href="<%- link %>"><%= item.title %></a><% } else { %><%= item.title %><% } %></div>
+  <div class="recent-pub-venue"><em><%= item.venue %></em></div>
+</div>
+<% } %>
+</div>
+```

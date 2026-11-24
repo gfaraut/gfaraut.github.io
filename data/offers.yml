@@ -1,0 +1,14 @@
+# Offres de stage ou de thèse, affichées en tête de la page Équipe (team.qmd).
+# Une offre disparaît d'elle-même après sa date « expires » : elle est retirée à la
+# reconstruction du lundi, et masquée dès le lendemain dans le navigateur des visiteurs.
+# Sans offre en cours, la section « Open positions » n'apparaît pas du tout.
+#
+# Modèle (retirer les « # » en début de ligne et remplacer « [] » par l'entrée) :
+#
+# - title: "Identification of hybrid systems for digital twins"
+#   type: "PhD thesis"                    # ou "MSc internship"
+#   start: "October 2027"
+#   expires: 2027-05-31                   # dernier jour d'affichage (AAAA-MM-JJ)
+#   description: "Deux ou trois phrases sur le sujet et le profil recherché."
+#   link: assets/offers/these-2027.pdf    # facultatif : fiche détaillée
+[]

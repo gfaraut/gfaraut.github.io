@@ -3,6 +3,16 @@ pagetitle: "Professor at ENS Paris-Saclay, LURPA"
 image: assets/img/profile.png
 page-layout: full
 body-classes: home
+# Les 3 dernières publications (mêmes données que publications.qmd, mises à jour seules).
+listing:
+  id: recent-publications
+  contents:
+    - data/publications.yml
+    - data/publications-manual.yml
+  template: _templates/recent-publications.ejs
+  sort: "date desc"
+  max-items: 3
+  feed: false
 ---
 
 <!-- En-tête : photo et liens à gauche, présentation à droite (une seule colonne sur mobile). -->
@@ -73,6 +83,13 @@ Modeling daily-life habits in smart homes to recognize activities and detect dev
 :::
 
 ::::
+
+## Recent publications
+
+::: {#recent-publications}
+:::
+
+[All publications →](publications.qmd){.more-link}
 
 ## Past positions
 

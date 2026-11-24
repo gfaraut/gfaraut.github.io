@@ -2,7 +2,24 @@
 title: "Team & supervision"
 aliases:
   - content/05_supervision.html
+# Offres de stage et de thèse : à saisir dans data/offers.yml (elles expirent seules).
+listing:
+  id: offers
+  contents: data/offers.yml
+  template: _templates/offers.ejs
+  sort: false
+  feed: false
 ---
+
+::: {.join-us}
+**Joining the team.** I regularly supervise MSc internships and PhD theses on Discrete Event
+Systems, behavior identification, digital twins and healthcare applications. Motivated
+students are welcome to [contact me](mailto:gregory.faraut+pages@ens-paris-saclay.fr) with a
+CV and their transcripts, even when no position is currently advertised.
+:::
+
+::: {#offers}
+:::
 
 <!--
   MODE D'EMPLOI
@@ -16,6 +33,8 @@ aliases:
       [Titre](https://theses.hal.science/tel-XXXXXXXX)
 
   Soutenance passée : déplacer le bloc de « Current » vers « Past ».
+  Offre de stage ou de thèse : la saisir dans data/offers.yml (modèle en tête du fichier) ;
+  elle s'affiche sous « Open positions » et disparaît seule à sa date d'expiration.
   Modifiable directement sur GitHub (crayon « Edit » sur le fichier team.qmd) :
   le site est reconstruit automatiquement après l'enregistrement.
 -->

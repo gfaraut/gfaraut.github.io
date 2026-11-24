@@ -28,27 +28,24 @@
   gap: 0.4rem;
   font-size: 0.8em;
 }
-.pub-links a, .pub-type, .pub-rank {
-  padding: 0.05rem 0.55rem;
-  border-radius: 999px;
-  border: 1px solid var(--site-filet);
-  text-decoration: none;
-}
-.pub-links a:hover { border-color: var(--site-prune); }
-.pub-type { background: var(--site-fond); color: #52616B; }
+.pub-links a, .pub-type, /* Badge de revue : non affiché depuis l'alignement sur DORA (voir _templates/publications.ejs). */
 .pub-rank {
   background: var(--site-canard);
   border-color: var(--site-canard);
   color: #fff;
   font-weight: 600;
 }
-.pub-legend .pub-rank {
-  font-size: 0.8em;
-  padding: 0.05rem 0.55rem;
-  border-radius: 999px;
-  margin-right: 0.3rem;
+
+/* Note DORA (page Publications) */
+.dora-note {
+  font-size: 0.9em;
+  color: #52616B;
+  background: var(--site-fond);
+  border-left: 4px solid var(--site-canard);
+  padding: 0.7rem 1rem;
+  margin: 1rem 0 1.5rem;
 }
-p.pub-legend, .pub-legend { font-size: 0.9em; color: #52616B; }
+.dora-note p:last-child { margin-bottom: 0; }
 
 /* ---------- Accueil : pleine largeur, mais bornée sur grand écran ---------- */
 body.home #quarto-content {
@@ -131,5 +128,46 @@ body.home #title-block-header { display: none; }
 .theme-card p { font-size: 0.92em; color: #52616B; margin-bottom: 0; }
 .theme-card p:has(> a > img) { margin: 0; }
 
+/* ---------- Dernières publications (accueil) ---------- */
+.recent-pubs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 1.2rem;
+  margin: 0.8rem 0 0.6rem;
+}
+.recent-pub {
+  border-top: 3px solid var(--site-canard);
+  padding-top: 0.6rem;
+}
+.recent-pub-meta { font-size: 0.8em; color: var(--site-canard); font-weight: 600; }
+.recent-pub-title { font-weight: 600; line-height: 1.35; margin: 0.25rem 0; }
+.recent-pub-title a { text-decoration: none; }
+.recent-pub-title a:hover { text-decoration: underline; }
+.recent-pub-venue { font-size: 0.88em; color: #52616B; }
+.more-link { font-weight: 600; text-decoration: none; }
+
 /* ---------- Page Recherche ---------- */
 .axis-figure img { max-height: 260px; width: auto; max-width: 100%; }
+
+/* Phrase d'apport sous chaque publication choisie (page Recherche) */
+.contribution { display: inline-block; font-size: 0.92em; color: #52616B; margin-bottom: 0.4rem; }
+
+/* ---------- Page Équipe : rejoindre l'équipe, offres à échéance ---------- */
+.join-us {
+  background: var(--site-fond);
+  border-left: 4px solid var(--site-prune);
+  padding: 0.8rem 1rem;
+  margin: 1rem 0 1.5rem;
+}
+.join-us p:last-child { margin-bottom: 0; }
+.offers {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+.offer { border: 1px solid var(--site-filet); border-radius: 6px; padding: 0.8rem 1rem; }
+.offer-meta { font-size: 0.8em; color: var(--site-canard); font-weight: 600; }
+.offer-title { font-weight: 600; margin: 0.2rem 0 0.4rem; }
+.offer-text { font-size: 0.92em; color: #52616B; }
+.offer-links { margin-top: 0.5rem; display: flex; gap: 0.8rem; font-size: 0.9em; }

@@ -1,0 +1,37 @@
+```{=html}
+<%/* Offres en cours (data/offers.yml). Les offres expirées sont écartées au rendu ; le script
+     en bas masque aussi celles qui expirent entre deux reconstructions. */%>
+<% const today = new Date(); today.setHours(0, 0, 0, 0); %>
+<% const active = items.filter(i => !i.expires || new Date(i.expires) >= today); %>
+<% if (active.length) { %>
+<h2 id="open-positions" class="anchored">Open positions</h2>
+<div class="list offers">
+<% for (const item of active) { %>
+<div class="offer" data-expires="<%= item.expires ? new Date(item.expires).toISOString().slice(0, 10) : '' %>">
+  <div class="offer-meta"><%= item.type %><% if (item.start) { %> · starting <%= item.start %><% } %></div>
+  <div class="offer-title"><%= item.title %></div>
+  <% if (item.description) { %><div class="offer-text"><%= item.description %></div><% } %>
+  <div class="offer-links">
+    <% if (item.link) { %><a href="<%- item.link %>">Details</a><% } %>
+    <a href="mailto:gregory.faraut+pages@ens-paris-saclay.fr?subject=<%- encodeURIComponent(item.title) %>">Contact</a>
+  </div>
+</div>
+<% } %>
+</div>
+<script>
+  (function () {
+    var today = new Date().toISOString().slice(0, 10);
+    var offers = document.querySelectorAll(".offer[data-expires]");
+    var shown = 0;
+    offers.forEach(function (o) {
+      var end = o.getAttribute("data-expires");
+      if (end && end < today) { o.style.display = "none"; } else { shown++; }
+    });
+    if (offers.length && !shown) {
+      var h = document.getElementById("open-positions");
+      if (h) { h.style.display = "none"; }
+    }
+  })();
+</script>
+<% } %>
+```

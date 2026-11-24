@@ -22,9 +22,13 @@ where most papers can be downloaded freely, and from [OpenAlex](https://openalex
 most recent ones. See also my
 [ORCID](https://orcid.org/0000-0003-0388-932X) record.
 
-::: {.pub-legend}
-[JCR]{.pub-rank} journal listed in Clarivate's *Journal Citation Reports* (with an impact factor)\
-[SJR Q1]{.pub-rank} best quartile of the journal in the [SCImago Journal Rank](https://www.scimagojr.com)
+::: {.dora-note}
+**On research assessment.** In line with the
+[San Francisco Declaration on Research Assessment (DORA)](https://sfdora.org/read/), signed by
+[Université Paris-Saclay](https://www.universite-paris-saclay.fr/actualites/luniversite-paris-saclay-signataire-de-dora)
+in 2022, this site shows no journal-based metrics (impact factors, journal rankings) nor
+citation counts: each work should be judged on its own content. The main contribution of
+selected papers is summarized on the [Research](research.qmd) page.
 :::
 
 ::: {#publications}
