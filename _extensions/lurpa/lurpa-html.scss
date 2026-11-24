@@ -1,0 +1,203 @@
+/*-- scss:defaults --*/
+
+// Livres et sites HTML — identité Université Paris-Saclay.
+// Palette Université Paris-Saclay.
+// Les mêmes valeurs figurent dans lurpa-preamble.tex pour le PDF : les modifier ensemble.
+$ups-prune: #63003C;
+$ups-ardoise: #313E48;
+$ups-canard: #007582;
+$ups-violet: #7C2A90;
+$ups-orange: #F37320;
+$ups-framboise: #C60B46;
+$ups-gris-texte: #52616B;
+$ups-gris-filet: #D6DBDF;
+$ups-gris-bordure: #E5E5EA;
+$ups-gris-fond: #F7F7F9;
+$ups-gris-code: #F6F7F8;
+$ups-prune-pale: #F7F3F6;
+
+// Cosmo importe Source Sans Pro depuis Google Fonts à chaque chargement de page ;
+// Open Sans étant embarquée dans le thème (_open-sans.scss), cet import est coupé.
+$web-font-path: false;
+
+$primary: $ups-prune;
+$body-color: $ups-ardoise;
+$body-bg: #ffffff;
+$link-color: $ups-prune;
+
+$font-family-sans-serif: "Open Sans", "Segoe UI", Tahoma, sans-serif;
+// 17 px avec le réglage par défaut des navigateurs (16 px), exprimé en %
+// pour respecter la taille de texte choisie par le lecteur.
+$font-size-root: 106.25%;
+$headings-font-weight: 600;
+
+$h1-font-size: 2.2rem;
+$h2-font-size: 1.65rem;
+$h3-font-size: 1.25rem;
+
+// Navigation
+$sidebar-bg: $ups-gris-fond;
+$sidebar-fg: $ups-ardoise;
+$sidebar-hl: $ups-prune;
+$toc-active-border: $ups-prune;
+
+// Encadrés pédagogiques
+$callout-color-note: $ups-prune;
+$callout-color-tip: $ups-canard;
+$callout-color-important: $ups-violet;
+$callout-color-warning: $ups-orange;
+$callout-color-caution: $ups-framboise;
+$callout-border-width: 4px;
+
+// Code
+$code-color: $ups-prune;
+$code-bg: $ups-prune-pale;
+$code-block-bg: $ups-gris-code;
+$code-block-border-left: $ups-gris-filet;
+
+
+/*-- scss:rules --*/
+
+@import "open-sans";
+
+// Lecture
+main p,
+main li {
+  line-height: 1.7;
+}
+
+main p {
+  margin-bottom: 1rem;
+}
+
+// Titre du chapitre
+#title-block-header {
+  border-bottom: 3px solid $primary;
+  padding-bottom: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+#title-block-header h1 {
+  color: $primary;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+#title-block-header .subtitle {
+  color: $ups-gris-texte;
+}
+
+// Titres du corps du cours
+main > section > h2 {
+  color: $primary;
+  margin-top: 2.4rem;
+  padding-bottom: .5rem;
+  border-bottom: 1px solid $ups-gris-filet;
+}
+
+main h3 {
+  margin-top: 1.7rem;
+  line-height: 1.35;
+}
+
+// Navigation latérale
+#quarto-sidebar {
+  border-right: 1px solid $ups-gris-bordure;
+}
+
+#quarto-sidebar .sidebar-course-logo {
+  display: block;
+  width: 90%;
+  max-width: 210px;
+  height: auto;
+  margin: 0.8rem auto 1rem;
+}
+
+.sidebar-title {
+  color: $primary;
+  font-weight: 700;
+}
+
+.sidebar-item-text.active {
+  font-weight: 700;
+}
+
+#quarto-sidebar .sidebar-item-container {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+#quarto-sidebar .sidebar-item-text {
+  line-height: 1.5;
+}
+
+// Encadrés
+div.callout {
+  border-radius: .3rem;
+  margin: 1.5rem 0;
+  box-shadow: none;
+}
+
+div.callout .callout-title-container {
+  font-weight: 600;
+}
+
+div.callout .callout-body {
+  font-size: 1rem;
+}
+
+// Figures et légendes
+.quarto-figure {
+  margin-top: 1.8rem;
+  margin-bottom: 1.8rem;
+}
+
+figcaption {
+  color: $ups-gris-texte;
+  font-size: .9rem;
+  line-height: 1.5;
+}
+
+// Tableaux
+.table {
+  font-size: .95rem;
+}
+
+.table thead th {
+  color: $primary;
+  background: $ups-prune-pale;
+  border-bottom: 2px solid $ups-gris-filet;
+}
+
+// Repère discret en début de chapitre
+.course-label {
+  color: $primary;
+  font-size: .8rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+// Équation ou résultat à mettre en valeur.
+// .highlight-box est l'équivalent employé dans les diapositives : les deux noms
+// sont acceptés, pour qu'un même fragment serve au livre et aux diapositives.
+.key-result,
+.highlight-box {
+  background: $ups-prune-pale;
+  border-left: 4px solid $primary;
+  border-radius: .2rem;
+  padding: .8rem 1.2rem;
+  margin: 1.5rem 0;
+}
+
+// Liens du texte et navigation au clavier
+main p a,
+main li a {
+  text-underline-offset: .18em;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid $ups-canard;
+  outline-offset: 3px;
+}

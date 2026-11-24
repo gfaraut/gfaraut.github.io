@@ -1,0 +1,23 @@
+```{=html}
+<div class="list pub-list">
+<% const me = ["Gregory Faraut"]; /* variantes ramenées à cette forme par scripts/publications.py */ %>
+<% for (const item of items) { %>
+<div class="pub-item" <%= metadataAttrs(item) %>>
+  <div class="pub-year"><%= item.year %></div>
+  <div class="pub-body">
+    <div class="pub-title listing-title"><%= item.title %></div>
+    <div class="pub-authors listing-authors"><% item.authors.forEach((a, i) => { %><%= i ? ", " : "" %><% if (me.includes(a)) { %><strong><%= a %></strong><% } else { %><%= a %><% } %><% }) %></div>
+    <div class="pub-venue listing-venue"><% if (item.venue) { %><em><%= item.venue %></em><%= item["venue_rest"] ? ", " : "" %><% } %><%= item["venue_rest"] %></div>
+    <div class="pub-links">
+      <span class="pub-type"><%= item.categories[0] %></span>
+      <% if (item.jcr) { %><span class="pub-rank" title="Journal listed in the Journal Citation Reports (Clarivate)">JCR</span><% } %>
+      <% if (item.sjr) { %><span class="pub-rank" title="SCImago Journal Rank, best quartile"><%= "SJR " + item.sjr %></span><% } %>
+      <% if (item.pdf) { %><a href="<%- item.pdf %>">PDF</a><% } %>
+      <% if (item.doi) { %><a href="<%- item.doi %>">DOI</a><% } %>
+      <% if (item.hal) { %><a href="<%- item.hal %>">HAL</a><% } %>
+    </div>
+  </div>
+</div>
+<% } %>
+</div>
+```

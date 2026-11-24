@@ -1,0 +1,24 @@
+---
+title: "Contact"
+aliases:
+  - content/contact.html
+---
+
+You can contact me by [email](mailto:gregory.faraut+pages@ens-paris-saclay.fr).
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+**Gregory Faraut**  
+ENS Paris-Saclay — LURPA  
+4 avenue des Sciences  
+91190 Gif-sur-Yvette, France  
+[Google Maps](https://www.google.com/maps/place/%C3%89cole+normale+sup%C3%A9rieure+Paris-Saclay)
+:::
+
+::: {.g-col-12 .g-col-md-6}
+Office: MV75  
+Tel: +33 1 81 87 51 28
+:::
+
+:::

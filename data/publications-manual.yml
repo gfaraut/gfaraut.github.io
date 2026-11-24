@@ -1,0 +1,15 @@
+# Publications saisies à la main : article accepté, pas encore référencé par HAL ni OpenAlex.
+# Dès qu'il apparaît sur HAL ou OpenAlex, SUPPRIMER l'entrée ici (sinon elle apparaît deux fois).
+#
+# Modèle (retirer les « # » en début de ligne et remplacer « [] » par l'entrée) :
+#
+# - title: "Titre de l'article"
+#   authors: ["Prénom Nom", "Gregory Faraut"]
+#   venue: "IEEE Transactions on Automation Science and Engineering"
+#   venue_rest: "accepted, 2026."
+#   year: "2026"
+#   date: 2026-01-01
+#   categories: ["Journal articles"]      # ou "Conference papers"
+#   doi: https://doi.org/10.xxxx/xxxxx    # facultatif
+#   pdf: https://...                      # facultatif
+[]

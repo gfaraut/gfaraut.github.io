@@ -1,0 +1,17 @@
+# Revues : indexation JCR et quartile SCImago (SJR), affichés en badges sur la page Publications.
+# Séparateur : point-virgule (le fichier s'ouvre aussi dans LibreOffice ou Excel).
+# Une ligne par revue ; l'ISSN (papier ou électronique) sert à reconnaître la revue d'un article.
+#   jcr : yes si la revue figure dans le Journal Citation Reports (Clarivate), c'est-à-dire
+#         qu'elle a un facteur d'impact ; vide sinon.
+#   sjr : meilleur quartile SCImago, de Q1 à Q4 ; vide = pas de badge.
+#         Fiche d'une revue : https://www.scimagojr.com/journalsearch.php?q=ISSN_SANS_TIRET&tip=iss
+# Revue manquante : le journal de construction affiche « Revue absente de data/journals.csv ».
+issn;journal;jcr;sjr
+1545-5955;IEEE Transactions on Automation Science and Engineering;yes;
+1551-3203;IEEE Transactions on Industrial Informatics;yes;
+1083-4427;IEEE Transactions on Systems, Man, and Cybernetics: Part A / Systems;yes;
+2168-2216;IEEE Transactions on Systems, Man, and Cybernetics: Systems;yes;
+1424-8220;Sensors;yes;
+0924-6703;Discrete Event Dynamic Systems;yes;
+0018-9286;IEEE Transactions on Automatic Control;yes;
+1269-6935;Journal Européen des Systèmes Automatisés (JESA);;

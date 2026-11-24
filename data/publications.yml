@@ -1,0 +1,834 @@
+[
+ {
+  "title": "Supervisory Control Under Indefinite Actuator and Sensor Attacks: Prescribed Resilience",
+  "date": "2026-01-01",
+  "year": "2026",
+  "categories": [
+   "Journal articles"
+  ],
+  "authors": [
+   "Shoma Matsui",
+   "Julien Bourgain-Wilbal",
+   "Yudai Saito",
+   "Ziyue Ma",
+   "Gregory Faraut",
+   "Kai Cai",
+   "Karen Rudie"
+  ],
+  "venue": "IEEE Transactions on Automatic Control",
+  "venue_rest": "vol. 71, no. 8, pp. 5001–5016, 2026.",
+  "source": "OpenAlex",
+  "doi": "https://doi.org/10.1109/tac.2026.3665131",
+  "jcr": true
+ },
+ {
+  "title": "Interpreted Higher-Dimensional Automata for Concurrent Discrete-Event Control",
+  "date": "2026-01-01",
+  "year": "2026",
+  "categories": [
+   "Conference papers"
+  ],
+  "authors": [
+   "Dylan Bellier",
+   "Gregory Faraut",
+   "Yan Monier",
+   "Philipp Schlehuber-Caissier"
+  ],
+  "venue": "International Workshop on Discrete Event Systems",
+  "venue_rest": "pp. 187–192, 2026.",
+  "source": "OpenAlex",
+  "doi": "https://doi.org/10.1109/wodes69290.2026.11598183"
+ },
+ {
+  "title": "Automatic Activity Planning Based on Activity Daily Living and Quality of Life Recommendations",
+  "date": "2026-01-01",
+  "year": "2026",
+  "categories": [
+   "Conference papers"
+  ],
+  "authors": [
+   "Léo-Paul Dewaele",
+   "Gregory Faraut",
+   "Xiang Yin"
+  ],
+  "venue": "International Workshop on Discrete Event Systems",
+  "venue_rest": "pp. 73–78, 2026.",
+  "source": "OpenAlex",
+  "doi": "https://doi.org/10.1109/wodes69290.2026.11598225"
+ },
+ {
+  "title": "Probabilistic timed Petri nets for clinical pathway design and analysis: a case study",
+  "date": "2025-01-01",
+  "year": "2025",
+  "categories": [
+   "Journal articles"
+  ],
+  "authors": [
+   "Manon Le Moigne",
+   "Cristian Mahulea",
+   "Gregory Faraut",
+   "Simona Bernardi",
+   "Jorge Albareda",
+   "Lidia Castán Bellido"
+  ],
+  "venue": "Discrete Event Dynamic Systems",
+  "venue_rest": "vol. 35, no. 3, pp. 205–231, 2025.",
+  "source": "OpenAlex",
+  "doi": "https://doi.org/10.1007/s10626-025-00419-4",
+  "jcr": true
+ },
+ {
+  "title": "Counting Time Temporal Logic for Multi-Robot Path Planning in Finite Horizons",
+  "date": "2025-01-01",
+  "year": "2025",
+  "categories": [
+   "Journal articles"
+  ],
+  "authors": [
+   "Peng Lv",
+   "Shaoyuan Li",
+   "Cristian Mahulea",
+   "Bruno Denis",
+   "Gregory Faraut",
+   "Xiang Yin"
+  ],
+  "venue": "IEEE Transactions on Automation Science and Engineering",
+  "venue_rest": "vol. 23, pp. 3145–3155, 2025.",
+  "source": "OpenAlex",
+  "doi": "https://doi.org/10.1109/tase.2025.3636053",
+  "jcr": true
+ },
+ {
+  "title": "A new global optimization for hybrid automaton Identification",
+  "date": "2024-01-01",
+  "year": "2024",
+  "categories": [
+   "Conference papers"
+  ],
+  "authors": [
+   "Yan Monier",
+   "Bruno Denis",
+   "Gregory Faraut",
+   "Nabil Anwer"
+  ],
+  "venue": "17th Workshop on Discrete Event Systems (WODES'24)",
+  "venue_rest": "Apr 2024, Rio de Janeiro, France. pp.252-257.",
+  "hal": "https://hal.science/hal-04804902v1",
+  "source": "HAL",
+  "doi": "https://doi.org/10.1016/j.ifacol.2024.07.043",
+  "pdf": "https://hal.science/hal-04804902/document"
+ },
+ {
+  "title": "Optimizing Clinical Pathways: A Probabilistic Time Petri Net Approach",
+  "date": "2024-01-01",
+  "year": "2024",
+  "categories": [
+   "Conference papers"
+  ],
+  "authors": [
+   "T. Le Moigne",
+   "Cristian Mahulea",
+   "Gregory Faraut"
+  ],
+  "venue": "IFAC-PapersOnLine",
+  "venue_rest": "vol. 58, no. 1, pp. 96–101, 2024.",
+  "source": "OpenAlex",
+  "doi": "https://doi.org/10.1016/j.ifacol.2024.07.017"
+ },
+ {
+  "title": "Identification de système à un automate hybride - revue des travaux récents",
+  "date": "2023-01-01",
+  "year": "2023",
+  "categories": [
+   "Conference papers"
+  ],
+  "authors": [
+   "Yan Monier",
+   "Bruno Denis",
+   "Gregory Faraut",
+   "Nabil Anwer"
+  ],
+  "venue": "Modélisation des Systèmes Réactifs (MSR'23)",
+  "venue_rest": "CNRS, Nov 2023, Toulouse, France.",
+  "hal": "https://hal.science/hal-04465229v1",
+  "source": "HAL",
+  "pdf": "https://hal.science/hal-04465229/document"
+ },
+ {
+  "title": "Inferring Moore Machine for Adaptive Online Hybrid Automaton Identification",
+  "date": "2023-01-01",
+  "year": "2023",
+  "categories": [
+   "Conference papers"
+  ],
+  "authors": [
+   "Yan Monier",
+   "Gregory Faraut",
+   "Bruno Denis",
+   "Nabil Anwer"
+  ],
+  "venue": "IFAC World Congress 2023",
+  "venue_rest": "Jul 2023, Yokohama, Japan.",
+  "hal": "https://hal.science/hal-04238162v1",
+  "source": "HAL",
+  "doi": "https://doi.org/10.1016/j.ifacol.2023.10.040",
+  "pdf": "https://hal.science/hal-04238162/document"
+ },
+ {
+  "title": "Construction of Model-based Diagnosis of Cyber-Attack in Cyber-Physical Systems Using Labeled Petri Nets",
+  "date": "2023-01-01",
+  "year": "2023",
+  "categories": [
+   "Conference papers"
+  ],
+  "authors": [
+   "Romain Thibert",
+   "Gregory Faraut",
+   "Saïd Amari"
+  ],
+  "venue": "2023 IEEE 28th International Conference on Emerging Technologies and Factory Automation (ETFA)",
+  "venue_rest": "Sep 2023, Sinaïa, Romania. pp.1-6.",
+  "hal": "https://hal.science/hal-04213244v1",
+  "source": "HAL",
+  "doi": "https://doi.org/10.1109/ETFA54631.2023.10275636",
+  "pdf": "https://hal.science/hal-04213244/document"
+ },
+ {
+  "title": "Mathematical Criteria for a Priori Performance Estimation of Activities of Daily Living Recognition",
+  "date": "2022-01-01",
+  "year": "2022",
+  "categories": [
+   "Journal articles"
+  ],
+  "authors": [
+   "Florentin Delaine",
+   "Gregory Faraut"
+  ],
+  "venue": "Sensors",
+  "venue_rest": "2022, 22 (7), pp.2439.",
+  "hal": "https://hal.science/hal-04160215v1",
+  "source": "HAL",
+  "doi": "https://doi.org/10.3390/s22072439",
+  "pdf": "https://hal.science/hal-04160215/document",
+  "jcr": true
+ },
+ {
+  "title": "Model-Based Approach for Anomaly Detection in Smart Home Inhabitant Daily Life",
+  "date": "2021-01-01",
+  "year": "2021",
+  "categories": [
+   "Conference papers"
+  ],
+  "authors": [
+   "Kevin Fouquet",
+   "Gregory Faraut",
+   "Jean-Jacques Lesage"
+  ],
+  "venue": "2021 American Control Conference (ACC)",
+  "venue_rest": "May 2021, New Orleans, United States. pp.3596-3601.",
+  "hal": "https://hal.science/hal-04160196v1",
+  "source": "HAL",
+  "doi": "https://doi.org/10.23919/ACC50511.2021.9483053",
+  "pdf": "https://hal.science/hal-04160196/document"
+ },
+ {
+  "title": "Long-term deviation detection in human behavior",
+  "date": "2021-01-01",
+  "year": "2021",
+  "categories": [
+   "Conference papers"
+  ],
+  "authors": [
+   "Kevin Fouquet",
+   "Gregory Faraut",
+   "Jean-Jacques Lesage"
+  ],
+  "venue": "2021 IEEE 17th International Conference on Automation Science and Engineering (CASE)",
+  "venue_rest": "Aug 2021, Lyon, France. pp.1401-1406.",
+  "hal": "https://hal.science/hal-04160204v1",
+  "source": "HAL",
+  "doi": "https://doi.org/10.1109/CASE49439.2021.9551594",
+  "pdf": "https://hal.science/hal-04160204/document"
+ },
+ {
+  "title": "Life Habits Modeling with Stochastic Timed Automata in Ambient Assisted Living",
+  "date": "2020-01-01",
+  "year": "2020",
+  "categories": [
+   "Conference papers"
+  ],
+  "authors": [
+   "Kevin Fouquet",
+   "Gregory Faraut",
+   "Jean-Jacques Lesage"
+  ],
+  "venue": "2020 IEEE International Conference on Systems, Man, and Cybernetics (SMC)",
+  "venue_rest": "Oct 2020, Toronto, Canada. pp. 2740-2745.",
+  "hal": "https://hal.science/hal-03039270v1",
+  "source": "HAL",
+  "pdf": "https://hal.science/hal-03039270/document"
+ },
+ {
+  "title": "Human Activity Discovery and Recognition using Probabilistic Finite-State Automata",
+  "date": "2020-01-01",
+  "year": "2020",
+  "categories": [
+   "Journal articles"
+  ],
+  "authors": [
+   "K Viard",
+   "M. P. Fanti",
+   "Gregory Faraut",
+   "J-J Lesage"
+  ],
+  "venue": "IEEE Transactions on Automation Science and Engineering",
+  "venue_rest": "In press, 17 (4), pp. 2085-2096.",
+  "hal": "https://hal.science/hal-02557589v1",
+  "source": "HAL",
+  "pdf": "https://hal.science/hal-02557589/document",
+  "jcr": true
+ },
+ {
+  "title": "An Optimization-Based Approach to Discover the Unobservable Behavior of a Discrete-Event System Through Interpreted Petri Nets",
+  "date": "2019-01-01",
+  "year": "2019",
+  "categories": [
+   "Journal articles"
+  ],
+  "authors": [
+   "Francesco Basile",
+   "Gregory Faraut",
+   "Luigi Ferrara",
+   "Jean-Jacques Lesage"
+  ],
+  "venue": "IEEE Transactions on Automation Science and Engineering",
+  "venue_rest": "2019, pp.1-15.",
+  "hal": "https://hal.science/hal-02369807v1",
+  "source": "HAL",
+  "doi": "https://doi.org/10.1109/TASE.2019.2944299",
+  "pdf": "https://hal.science/hal-02369807/document",
+  "jcr": true
+ },
+ {
+  "title": "Discovering of the unobservable behaviour of an Interpreted Petri Net model",
+  "date": "2019-01-01",
+  "year": "2019",
+  "categories": [
+   "Conference papers"
+  ],
+  "authors": [
+   "Francesco Basile",
+   "Gregory Faraut",
+   "Luigi Ferrara",
+   "Jean-Jaques Lesage"
+  ],
+  "venue": "58th IEEE Conf. on Decision and Control (CDC’19)",
+  "venue_rest": "Dec 2019, Nice, France. pp.2021-2026.",
+  "hal": "https://hal.science/hal-02415453v1",
+  "source": "HAL",
+  "pdf": "https://hal.science/hal-02415453/document"
+ },
+ {
+  "title": "An Integrated Framework for Binary Sensor Placement and Inhabitants Location Tracking",
+  "date": "2018-01-01",
+  "year": "2018",
+  "categories": [
+   "Journal articles"
+  ],
+  "authors": [
+   "Maria Pia Fanti",
+   "Gregory Faraut",
+   "Jean-Jacques Lesage",
+   "Michele Roccotelli"
+  ],
+  "venue": "IEEE Transactions on Systems, Man and Cybernetics, Part A: Systems and Humans",
+  "venue_rest": "2018, 48 (1), pp. 154-160.",
+  "hal": "https://hal.science/hal-01367581v1",
+  "source": "HAL",
+  "doi": "https://doi.org/10.1109/TSMC.2016.2597699",
+  "pdf": "https://hal.science/hal-01367581/document",
+  "jcr": true
+ },
+ {
+  "title": "Automated Partitioning of Concurrent Discrete Event Systems for Distributed Behavioural Identification",
+  "date": "2017-01-01",
+  "year": "2017",
+  "categories": [
+   "Journal articles"
+  ],
+  "authors": [
+   "Jeremie Saives",
+   "Gregory Faraut",
+   "Jean-Jacques Lesage"
+  ],
+  "venue": "IEEE Transactions on Automation Science and Engineering",
+  "venue_rest": "2017.",
+  "hal": "https://hal.science/hal-01564213v1",
+  "source": "HAL",
+  "doi": "https://doi.org/10.1109/TASE.2017.2718244",
+  "pdf": "https://hal.science/hal-01564213/document",
+  "jcr": true
+ },
+ {
+  "title": "Model-based testing of PLC programs with appropriate conformance relations",
+  "date": "2017-01-01",
+  "year": "2017",
+  "categories": [
+   "Journal articles"
+  ],
+  "authors": [
+   "Anais Guignard",
+   "Jean-Marc Faure",
+   "Gregory Faraut"
+  ],
+  "venue": "IEEE Transactions on Industrial Informatics",
+  "venue_rest": "2017.",
+  "hal": "https://hal.science/hal-01511071v1",
+  "source": "HAL",
+  "doi": "https://doi.org/10.1109/TII.2017.2695370",
+  "pdf": "https://hal.science/hal-01511071/document",
+  "jcr": true
+ },
+ {
+  "title": "Recognition of Human Activity Based on Probabilistic Finite-State Automata",
+  "date": "2017-01-01",
+  "year": "2017",
+  "categories": [
+   "Conference papers"
+  ],
+  "authors": [
+   "Kevin Viard",
+   "Maria Pia Fanti",
+   "Gregory Faraut",
+   "Jean-Jacques Lesage"
+  ],
+  "venue": "22nd IEEE International Conference on Emerging Technologies And Factory Automation",
+  "venue_rest": "Sep 2017, Limassol, Cyprus.",
+  "hal": "https://hal.science/hal-01529721v1",
+  "source": "HAL",
+  "pdf": "https://hal.science/hal-01529721/document"
+ },
+ {
+  "title": "Smart Placement of Motion Sensors in a Home Environment",
+  "date": "2017-01-01",
+  "year": "2017",
+  "categories": [
+   "Conference papers"
+  ],
+  "authors": [
+   "Maria Pia Fanti",
+   "Michele Roccotelli",
+   "Gregory Faraut",
+   "Jean-Jacques Lesage"
+  ],
+  "venue": "IEEE SMC 2017 - IEEE International Conference on Systems, Man, and Cybernetics (SMC)",
+  "venue_rest": "Oct 2017, Banff, Canada. pp.894-899.",
+  "hal": "https://hal.science/hal-01655388v1",
+  "source": "HAL",
+  "pdf": "https://hal.science/hal-01655388/document"
+ },
+ {
+  "title": "Motion Detector Placement Optimization in Smart Homes for Inhabitant Location Tracking",
+  "date": "2016-01-01",
+  "year": "2016",
+  "categories": [
+   "Conference papers"
+  ],
+  "authors": [
+   "Maria Pia Fanti",
+   "Michele Roccotelli",
+   "Jean-Jacques Lesage",
+   "Gregory Faraut"
+  ],
+  "venue": "ETFA'16: 21st IEEE Int. Conf. on Emerging Technologies and Factory Automation",
+  "venue_rest": "Sep 2016, Berlin, Germany.",
+  "hal": "https://hal.science/hal-01357687v1",
+  "source": "HAL",
+  "pdf": "https://hal.science/hal-01357687/document"
+ },
+ {
+  "title": "An Event-Based Approach for Discovering Activities of Daily Living by Hidden Markov Models",
+  "date": "2016-01-01",
+  "year": "2016",
+  "categories": [
+   "Conference papers"
+  ],
+  "authors": [
+   "K Viard",
+   "Mp Fanti",
+   "Gregory Faraut",
+   "J-J Lesage"
+  ],
+  "venue": "15th IEEE Int. Conf. on Ubiquitous Computing and Communications, (IUCC 2016)",
+  "venue_rest": "Dec 2016, Granada, Spain. pp.85-92.",
+  "hal": "https://hal.science/hal-01378583v1",
+  "source": "HAL",
+  "pdf": "https://hal.science/hal-01378583/document"
+ },
+ {
+  "title": "Identification par réseau de Petri du comportement non observable d'un système séquentiel réactif",
+  "date": "2015-01-01",
+  "year": "2015",
+  "categories": [
+   "Conference papers"
+  ],
+  "authors": [
+   "Jérémie Saives",
+   "Gregory Faraut",
+   "Jean-Jacques Lesage"
+  ],
+  "venue": "6èmes Journées doctorales du GDR MACS, JDMACS'15",
+  "venue_rest": "INSA Centre Val de Loire, Jun 2015, Bourges, France.",
+  "hal": "https://hal.science/hal-01180590v1",
+  "source": "HAL",
+  "pdf": "https://hal.science/hal-01180590/document"
+ },
+ {
+  "title": "Identification of Discrete Event Systems Unobservable Behaviour by Petri nets using Language Projections",
+  "date": "2015-01-01",
+  "year": "2015",
+  "categories": [
+   "Conference papers"
+  ],
+  "authors": [
+   "Jeremie Saives",
+   "Gregory Faraut",
+   "Jean-Jacques Lesage"
+  ],
+  "venue": "IEEE European Control Conference 2015, ECC'15",
+  "venue_rest": "Johannes Kepler University, Jul 2015, Linz, Austria.",
+  "hal": "https://hal.science/hal-01180594v1",
+  "source": "HAL",
+  "pdf": "https://hal.science/hal-01180594/document"
+ },
+ {
+  "title": "Activity Discovery and Detection of Behavioural Deviations of an Inhabitant from Binary Sensors",
+  "date": "2015-01-01",
+  "year": "2015",
+  "categories": [
+   "Journal articles"
+  ],
+  "authors": [
+   "Jérémie Saives",
+   "Clément Pianon",
+   "Gregory Faraut"
+  ],
+  "venue": "IEEE Transactions on Automation Science and Engineering",
+  "venue_rest": "2015, 12 (4), pp.1211 - 1224.",
+  "hal": "https://hal.science/hal-01253810v1",
+  "source": "HAL",
+  "doi": "https://doi.org/10.1109/TASE.2015.2471842",
+  "pdf": "https://hal.science/hal-01253810/document",
+  "jcr": true
+ },
+ {
+  "title": "Identification comportementale des Systèmes à Evénements Discrets réactifs",
+  "date": "2015-01-01",
+  "year": "2015",
+  "categories": [
+   "Posters"
+  ],
+  "authors": [
+   "Jérémie Saives",
+   "Gregory Faraut",
+   "Jean-Jacques Lesage"
+  ],
+  "venue": "",
+  "venue_rest": "Stephan Merz and Jean-François Pétin. Modélisation des Systèmes Réactifs (MSR 2015), Nov 2015, Nancy, France.",
+  "hal": "https://inria.hal.science/hal-01224493v1",
+  "source": "HAL",
+  "pdf": "https://inria.hal.science/hal-01224493/document"
+ },
+ {
+  "title": "E-santé et maison intelligente : Une approche à travers le prisme des Systèmes à Evénements Discrets",
+  "date": "2014-01-01",
+  "year": "2014",
+  "categories": [
+   "Conference papers"
+  ],
+  "authors": [
+   "Mickaël Danancher",
+   "Jérémie Saives",
+   "Gregory Faraut",
+   "Jean-Jacques Lesage"
+  ],
+  "venue": "JETSAN 2014 (Journées d'étude sur la Télésanté)",
+  "venue_rest": "Jun 2014, Troyes, France. pp.51 - 54.",
+  "hal": "https://hal.science/hal-01022764v1",
+  "source": "HAL",
+  "pdf": "https://hal.science/hal-01022764/document"
+ },
+ {
+  "title": "Automated Generation of Models of Activities of Daily Living",
+  "date": "2014-01-01",
+  "year": "2014",
+  "categories": [
+   "Conference papers"
+  ],
+  "authors": [
+   "Jérémie Saives",
+   "Gregory Faraut"
+  ],
+  "venue": "12th International Workshop on Discrete Event Systems-WODES 2014",
+  "venue_rest": "May 2014, Cachan, France. pp.13-20.",
+  "hal": "https://hal.science/hal-00999505v1",
+  "source": "HAL",
+  "pdf": "https://hal.science/hal-00999505/document"
+ },
+ {
+  "title": "A Discrete Event Model for Multiple Inhabitants Location Tracking",
+  "date": "2013-01-01",
+  "year": "2013",
+  "categories": [
+   "Conference papers"
+  ],
+  "authors": [
+   "Mickaël Danancher",
+   "Jean-Jacques Lesage",
+   "Lothar Litz",
+   "Gregory Faraut"
+  ],
+  "venue": "9th IEEE International Conference on Automation Science and Engineering - CASE 2013",
+  "venue_rest": "Aug 2013, Madison, WI, United States. pp.922-927.",
+  "hal": "https://hal.science/hal-00855156v1",
+  "source": "HAL",
+  "doi": "https://doi.org/10.1109/CoASE.2013.6653946",
+  "pdf": "https://hal.science/hal-00855156/document"
+ },
+ {
+  "title": "A DES Simulator for Location Tracking of Inhabitants in Smart Home",
+  "date": "2013-01-01",
+  "year": "2013",
+  "categories": [
+   "Conference papers"
+  ],
+  "authors": [
+   "Mickaël Danancher",
+   "Gregory Faraut",
+   "Jean-Jacques Lesage",
+   "Lothar Litz"
+  ],
+  "venue": "Proceedings of the 8th EUROSIM Congress on Modelling and Simulation - EUROSIM 2013",
+  "venue_rest": "Sep 2013, Cardiff, Wales, United Kingdom. pp.330-335.",
+  "hal": "https://hal.science/hal-00862386v1",
+  "source": "HAL",
+  "pdf": "https://hal.science/hal-00862386/document"
+ },
+ {
+  "title": "Online Location Tracking of a Single Inhabitant based on a State Estimator",
+  "date": "2013-01-01",
+  "year": "2013",
+  "categories": [
+   "Conference papers"
+  ],
+  "authors": [
+   "Mickaël Danancher",
+   "Jean-Jacques Lesage",
+   "Lothar Litz",
+   "Gregory Faraut"
+  ],
+  "venue": "Proceedings of the IEEE International Conference on Systems, Man, and Cybernetics - SMC 2013",
+  "venue_rest": "Oct 2013, Manchester, United Kingdom. pp.391-396.",
+  "hal": "https://hal.science/hal-00873247v1",
+  "source": "HAL",
+  "doi": "https://doi.org/10.1109/SMC.2013.73",
+  "pdf": "https://hal.science/hal-00873247/document"
+ },
+ {
+  "title": "Identification des états équivalents dans l'approche modale",
+  "date": "2011-01-01",
+  "year": "2011",
+  "categories": [
+   "Conference papers"
+  ],
+  "authors": [
+   "Gregory Faraut",
+   "Laurent Piétrac",
+   "Eric Niel"
+  ],
+  "venue": "Modélisation des Systèmes Réactifs, MSR'11",
+  "venue_rest": "Nov 2011, Lille, France. pp.141-156.",
+  "hal": "https://hal.science/hal-00759503v1",
+  "source": "HAL",
+  "doi": "https://doi.org/10.3166/jesa.45.141-156",
+  "pdf": "https://hal.science/hal-00759503/document"
+ },
+ {
+  "title": "Process tracking by equivalent states in modal supervisory control",
+  "date": "2011-01-01",
+  "year": "2011",
+  "categories": [
+   "Conference papers"
+  ],
+  "authors": [
+   "Gregory Faraut",
+   "Laurent Piétrac",
+   "Eric Niel"
+  ],
+  "venue": "ETFA 2011",
+  "venue_rest": "Sep 2011, Toulouse, France. 8 p. (électronique).",
+  "hal": "https://hal.science/hal-00636628v1",
+  "source": "HAL",
+  "doi": "https://doi.org/10.1109/ETFA.2011.6059040"
+ },
+ {
+  "title": "Equivalence of Behaviors Between Centralized and Multi-model Approaches",
+  "date": "2011-01-01",
+  "year": "2011",
+  "categories": [
+   "Conference papers"
+  ],
+  "authors": [
+   "Gregory Faraut",
+   "Laurent Piétrac",
+   "Eric Niel"
+  ],
+  "venue": "7th International Conference on Automation Science and Engineering, CASE'11",
+  "venue_rest": "Aug 2011, Trieste, Italy. pp.32-38.",
+  "hal": "https://hal.science/hal-00759500v1",
+  "source": "HAL",
+  "doi": "https://doi.org/10.1109/CASE.2011.6042502",
+  "pdf": "https://hal.science/hal-00759500/document"
+ },
+ {
+  "title": "Commutations sûres de mode pour les systèmes à événements discrets",
+  "date": "2010-01-01",
+  "year": "2010",
+  "categories": [
+   "Theses & HDR"
+  ],
+  "authors": [
+   "Gregory Faraut"
+  ],
+  "venue": "",
+  "venue_rest": "Automatique / Robotique. INSA de Lyon, 2010. Français.",
+  "hal": "https://theses.hal.science/tel-00945172v1",
+  "source": "HAL",
+  "pdf": "https://theses.hal.science/tel-00945172/document"
+ },
+ {
+  "title": "Control Law Synthesis and Reconfiguration Using SCT",
+  "date": "2010-01-01",
+  "year": "2010",
+  "categories": [
+   "Conference papers"
+  ],
+  "authors": [
+   "Gregory Faraut",
+   "Laurent Piétrac",
+   "Eric Niel"
+  ],
+  "venue": "SysTol",
+  "venue_rest": "Oct 2010, Nice, France. pp.576 - 581.",
+  "hal": "https://hal.science/hal-00597439v1",
+  "source": "HAL",
+  "doi": "https://doi.org/10.1109/SYSTOL.2010.5675977"
+ },
+ {
+  "title": "Démarche d'aide à la conception par approche multimode des SED",
+  "date": "2009-01-01",
+  "year": "2009",
+  "categories": [
+   "Conference papers"
+  ],
+  "authors": [
+   "Gregory Faraut",
+   "Laurent Piétrac",
+   "Eric Niel"
+  ],
+  "venue": "MSR'09",
+  "venue_rest": "Nov 2009, Nantes, France. pp.837-853.",
+  "hal": "https://hal.science/hal-00476124v1",
+  "source": "HAL"
+ },
+ {
+  "title": "Identification des états incompatibles lors d'un changement de mode",
+  "date": "2009-01-01",
+  "year": "2009",
+  "categories": [
+   "Conference papers"
+  ],
+  "authors": [
+   "Gregory Faraut",
+   "Laurent Piétrac",
+   "Eric Niel"
+  ],
+  "venue": "JN-JD-MACS",
+  "venue_rest": "Mar 2009, Angers, France. pp.électronique.",
+  "hal": "https://hal.science/hal-00476143v1",
+  "source": "HAL"
+ },
+ {
+  "title": "Formal Approach to Multimodal Control Design: Application to Mode Switching",
+  "date": "2009-01-01",
+  "year": "2009",
+  "categories": [
+   "Journal articles"
+  ],
+  "authors": [
+   "Gregory Faraut",
+   "Laurent Piétrac",
+   "Eric Niel"
+  ],
+  "venue": "IEEE Transactions on Industrial Informatics",
+  "venue_rest": "2009, 5 (4), pp.443 - 453.",
+  "hal": "https://hal.science/hal-00471885v1",
+  "source": "HAL",
+  "doi": "https://doi.org/10.1109/TII.2009.2028135",
+  "pdf": "https://hal.science/hal-00471885/document",
+  "jcr": true
+ },
+ {
+  "title": "A New Framework for Mode Switching in SCT",
+  "date": "2009-01-01",
+  "year": "2009",
+  "categories": [
+   "Conference papers"
+  ],
+  "authors": [
+   "Gregory Faraut",
+   "Laurent Piétrac",
+   "Eric Niel"
+  ],
+  "venue": "ECC",
+  "venue_rest": "Aug 2009, Budapest, Hungary. pp.MoC10.3.",
+  "hal": "https://hal.science/hal-00419683v1",
+  "source": "HAL",
+  "doi": "https://doi.org/10.23919/ECC.2009.7074613"
+ },
+ {
+  "title": "Démarche d'aide à la conception par approche multimode des SED",
+  "date": "2009-01-01",
+  "year": "2009",
+  "categories": [
+   "Journal articles"
+  ],
+  "authors": [
+   "Gregory Faraut",
+   "Laurent Piétrac",
+   "Eric Niel"
+  ],
+  "venue": "Journal Européen des Systèmes Automatisés",
+  "venue_rest": "2009, 43 (7-9), pp.837-853.",
+  "hal": "https://hal.science/hal-00472016v1",
+  "source": "HAL"
+ },
+ {
+  "title": "Identification of incompatible states in mode switching",
+  "date": "2008-01-01",
+  "year": "2008",
+  "categories": [
+   "Conference papers"
+  ],
+  "authors": [
+   "Gregory Faraut",
+   "Laurent Piétrac",
+   "Eric Niel"
+  ],
+  "venue": "ETFA 2008",
+  "venue_rest": "Sep 2008, Hambourg, Germany. pp.121 - 128.",
+  "hal": "https://hal.science/hal-00375905v1",
+  "source": "HAL",
+  "doi": "https://doi.org/10.1109/ETFA.2008.4638382"
+ }
+]

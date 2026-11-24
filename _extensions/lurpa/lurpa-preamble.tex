@@ -1,0 +1,47 @@
+% lurpa-preamble.tex — PDF des livres : identité Université Paris-Saclay.
+% Palette reprise de lurpa-html.scss (les modifier ensemble).
+\definecolor{ups-prune}{HTML}{63003C}
+\definecolor{ups-ardoise}{HTML}{313E48}
+\definecolor{ups-canard}{HTML}{007582}
+\definecolor{ups-violet}{HTML}{7C2A90}
+\definecolor{ups-orange}{HTML}{F37320}
+\definecolor{ups-framboise}{HTML}{C60B46}
+\definecolor{ups-gris-texte}{HTML}{52616B}
+\definecolor{ups-gris-filet}{HTML}{D6DBDF}
+\definecolor{ups-prune-pale}{HTML}{F7F3F6}
+
+% Mêmes options que Quarto pour éviter un conflit de chargement.
+\usepackage[skins,breakable]{tcolorbox}
+
+% Titres : Open Sans si elle est installée (LuaLaTeX ou XeLaTeX), sinon
+% Latin Modern Sans ; le corps reste en Latin Modern, homogène avec les formules.
+\ifPDFTeX\else
+  \IfFontExistsTF{Open Sans}{\setsansfont{Open Sans}}{}
+\fi
+\ifdefined\addtokomafont
+  \addtokomafont{disposition}{\color{ups-prune}}
+\fi
+
+% Résultat clé : ::: {.key-result} (ou .highlight-box)
+\newtcolorbox{lurpakeyresult}{enhanced, breakable,
+  colback=ups-prune-pale, colframe=ups-prune,
+  boxrule=0pt, leftrule=4pt, arc=0pt, outer arc=0pt,
+  left=10pt, right=10pt, top=6pt, bottom=6pt,
+  before skip=1.2\baselineskip, after skip=1.2\baselineskip}
+
+% Repère de chapitre : [texte]{.course-label}
+\newcommand{\lurpacourselabel}[1]{{\color{ups-prune}\sffamily\bfseries\footnotesize\MakeUppercase{#1}}}
+
+% Encadrés Quarto (callouts) aux couleurs du livre HTML.
+\AtBeginDocument{%
+  \colorlet{quarto-callout-note-color}{ups-prune}%
+  \colorlet{quarto-callout-note-color-frame}{ups-prune}%
+  \colorlet{quarto-callout-tip-color}{ups-canard}%
+  \colorlet{quarto-callout-tip-color-frame}{ups-canard}%
+  \colorlet{quarto-callout-important-color}{ups-violet}%
+  \colorlet{quarto-callout-important-color-frame}{ups-violet}%
+  \colorlet{quarto-callout-warning-color}{ups-orange}%
+  \colorlet{quarto-callout-warning-color-frame}{ups-orange}%
+  \colorlet{quarto-callout-caution-color}{ups-framboise}%
+  \colorlet{quarto-callout-caution-color-frame}{ups-framboise}%
+}

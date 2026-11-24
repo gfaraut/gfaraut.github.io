@@ -1,0 +1,61 @@
+project:
+  type: website
+  output-dir: _site
+  # Met à jour data/publications.yml (HAL + OpenAlex) avant chaque rendu.
+  pre-render: scripts/publications.py
+  render:
+    - "*.qmd"
+  resources:
+    # Vérification Google Search Console : doit rester à la racine du site.
+    - googlefc2dcb7edf7908b6.html
+
+lang: en
+
+website:
+  title: "Gregory Faraut"
+  description: "Professor at ENS Paris-Saclay (LURPA) — Discrete Event Systems, behaviour identification, digital twins and Human-Cyber-Physical Systems."
+  site-url: https://gfaraut.github.io
+  favicon: assets/img/favicon.ico
+  open-graph: true
+  twitter-card: true
+  search: true
+  page-navigation: false
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: team.qmd
+        text: Team
+      - href: teaching.qmd
+        text: Teaching
+      - href: cv.qmd
+        text: CV
+      - href: contact.qmd
+        text: Contact
+    right:
+      - icon: envelope
+        href: mailto:gregory.faraut+pages@ens-paris-saclay.fr
+        aria-label: Email
+      - icon: journal-text
+        href: https://cv.hal.science/gfaraut
+        aria-label: HAL
+      - icon: person-badge
+        href: https://orcid.org/0000-0003-0388-932X
+        aria-label: ORCID
+  page-footer:
+    left: "© 2026 Gregory Faraut — ENS Paris-Saclay, LURPA"
+    right:
+      - text: LURPA
+        href: https://lurpa.ens-paris-saclay.fr
+      - text: ENS Paris-Saclay
+        href: https://ens-paris-saclay.fr
+
+format:
+  lurpa-html:
+    toc: false
+    page-layout: article
+    css: styles.css

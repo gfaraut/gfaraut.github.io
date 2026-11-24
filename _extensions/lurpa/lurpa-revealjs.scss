@@ -1,0 +1,436 @@
+// Diapositives de cours et exposés — identité ENS Paris-Saclay / LURPA.
+// Reprise de lurpa-course.scss ; seul ajout : .key-result, alias de .highlight-box,
+// pour qu'un même fragment serve au livre et aux diapositives.
+
+/*-- scss:defaults --*/
+
+$body-bg: #ffffff;
+$body-color: #303f48;
+$link-color: #7d55c7;
+$selection-bg: rgba(125, 85, 199, 0.20);
+$font-family-sans-serif: Arial, "Liberation Sans", sans-serif;
+$font-family-monospace: "Liberation Mono", "DejaVu Sans Mono", monospace;
+$presentation-font-size-root: 24px;
+$presentation-heading-font: Arial, "Liberation Sans", sans-serif;
+$presentation-heading-color: #7d55c7;
+$presentation-heading-font-weight: 700;
+$presentation-heading-text-transform: none;
+$presentation-h1-font-size: 1.80em;
+$presentation-h2-font-size: 1.30em;
+$presentation-h3-font-size: 1.02em;
+$code-block-font-size: 0.66em;
+
+/*-- scss:rules --*/
+
+/* Shared screen/PDF layout. Keep these values in one place.
+ * RevealJS supplies --slide-height from the presentation YAML.
+ * This theme is designed for a fixed slide canvas (normally 1280 x 720).
+ * Course titles, authors and footer text belong in the QMD/YAML.
+ */
+
+:root {
+  --lurpa-teal: #00778a;
+  --lurpa-teal-dark: #006a77;
+  --lurpa-teal-ink: #00323c;
+  --lurpa-purple: #7d55c7;
+  --lurpa-red: #ff0000;
+  --lurpa-body: #303f48;
+  --lurpa-muted: #7b878f;
+  --lurpa-soft-grey: #f3f4f5;
+  --lurpa-border: #dfe5e7;
+  --lurpa-content-padding: 40px 130px 66px 72px;
+  --lurpa-section-padding: 48px 84px 72px;
+  --lurpa-title-padding: 246px 84px 72px;
+}
+
+
+.reveal {
+  color: var(--lurpa-body);
+  font-size: 24px;
+}
+
+.reveal .slides {
+  text-align: left;
+}
+
+.reveal .slides section.slide {
+  box-sizing: border-box;
+  height: 100%;
+  --lurpa-slide-padding: var(--lurpa-content-padding);
+  padding: var(--lurpa-slide-padding);
+  color: var(--lurpa-body);
+  background: #ffffff;
+  box-shadow: inset 0 0 0 1px #e5eaec;
+}
+
+.reveal .slides section.slide.present {
+  overflow: hidden;
+}
+
+.reveal .slides section.slide > h2:first-child {
+  display: flex;
+  align-items: center;
+  width: calc(100% - 96px);
+  max-width: calc(100% - 96px);
+  margin: 0 0 30px 16px;
+  padding: 0;
+  color: var(--lurpa-purple);
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 1.08;
+  text-align: left;
+  text-transform: none;
+}
+
+/*
+ * Four horizontal rules form the ENS Paris-Saclay signature used in the
+ * reference ODP. They belong to the title line and therefore cannot cover or
+ * displace the slide content.
+ */
+.reveal .slides section.slide > h2:first-child .ens-signature {
+  display: inline-flex;
+  position: absolute;
+  top: 31px;
+  left: 0;
+  flex: 0 0 50px;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50px;
+  height: 59px;
+}
+
+.reveal .slides section.slide > h2:first-child .ens-signature i {
+  display: block;
+  flex: 0 0 2px;
+  width: 50px;
+  height: 2px;
+  background: var(--lurpa-teal);
+}
+
+.reveal h3 {
+  margin: 0.55em 0 0.25em;
+  color: var(--lurpa-teal-dark);
+  font-size: 1.03em;
+}
+
+.reveal p,
+.reveal li {
+  line-height: 1.30;
+}
+
+.reveal p {
+  margin: 0.32em 0 0.64em;
+}
+
+.reveal ul,
+.reveal ol {
+  margin: 0.35em 0 0.70em 1.15em;
+}
+
+.reveal li + li {
+  margin-top: 0.24em;
+}
+
+.reveal strong {
+  color: var(--lurpa-teal-dark);
+}
+
+.reveal em {
+  color: var(--lurpa-purple);
+}
+
+.reveal a {
+  color: var(--lurpa-purple);
+  text-decoration-thickness: 0.06em;
+  text-underline-offset: 0.12em;
+}
+
+.reveal .red {
+  color: var(--lurpa-red);
+}
+
+.reveal .purple {
+  color: var(--lurpa-purple);
+}
+
+.reveal .teal {
+  color: var(--lurpa-teal-dark);
+}
+
+/* White, classical title and section pages using ENS typography and colours. */
+.reveal .slides section.slide.title-slide,
+.reveal .slides section.slide.section-slide {
+  display: flex !important;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  --lurpa-slide-padding: var(--lurpa-section-padding);
+  padding: var(--lurpa-slide-padding);
+  color: var(--lurpa-teal-dark);
+  text-align: left;
+  background: #ffffff;
+  box-shadow: inset 0 0 0 1px #e5eaec;
+}
+
+.reveal .slides section.slide.title-slide > h2:first-child,
+.reveal .slides section.slide.section-slide > h2:first-child {
+  display: flex;
+  width: calc(100% - 168px);
+  max-width: 980px;
+  margin: 0;
+  color: var(--lurpa-purple);
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.08;
+  text-align: left;
+}
+
+.reveal .slides section.slide.title-slide .subtitle {
+  max-width: 920px;
+  margin: 24px 0 0 90px;
+  color: var(--lurpa-teal-dark);
+  font-size: 28px;
+  line-height: 1.25;
+}
+
+.reveal .slides section.slide.title-slide .author-line {
+  margin: 26px 0 0 90px;
+  color: #50656b;
+  font-size: 19px;
+}
+
+.reveal .slides section.slide.section-slide > h2:first-child {
+  max-width: 1040px;
+  font-size: 48px;
+}
+
+.reveal .slides section.slide.title-slide > h2:first-child .ens-signature {
+  display: none;
+}
+
+.reveal .slides section.slide.section-slide > h2:first-child .ens-signature {
+  top: 310px;
+}
+
+/* Official institutional identities, used on the title page only. */
+.reveal .ens-cover-logo {
+  position: absolute;
+  top: 44px;
+  left: 80px;
+  width: 300px;
+  height: 165px;
+  margin: 0;
+  padding: 0;
+  object-fit: contain;
+  background: #ffffff;
+  border: 0;
+  box-shadow: none;
+}
+
+.reveal .slides section.slide.title-slide {
+  justify-content: flex-start;
+  --lurpa-slide-padding: var(--lurpa-title-padding);
+}
+
+.reveal .ups-cover-panel {
+  position: absolute;
+  left: 80px;
+  bottom: 32px;
+  width: 246px;
+  height: 84px;
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+}
+
+.reveal .ups-cover-panel p {
+  margin: 0;
+}
+
+.reveal .ups-cover-panel img.ups-cover-logo {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  object-fit: contain;
+  border: 0;
+  box-shadow: none;
+}
+
+/* One logo is inserted inside every slide by the Lua filter. */
+.reveal .slides section.slide > img.lurpa-logo {
+  display: block;
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  left: auto;
+  z-index: 6;
+  width: 100px;
+  height: 46px;
+  max-width: none;
+  max-height: none;
+  margin: 0;
+  padding: 2px 5px;
+  object-fit: contain;
+  background: #ffffff;
+  border: 0;
+  box-shadow: none;
+}
+
+/* Native Quarto footer and Reveal slide number. */
+.reveal .footer {
+  right: auto;
+  bottom: 15px;
+  left: 50%;
+  z-index: 5;
+  width: auto;
+  color: var(--lurpa-purple);
+  font-size: 13px;
+  background: transparent;
+  transform: translateX(-50%);
+}
+
+.reveal .slide-number {
+  top: 23px;
+  right: 32px;
+  bottom: auto;
+  left: auto;
+  z-index: 7;
+  color: var(--lurpa-purple);
+  font-size: 14px;
+  font-weight: 700;
+  background: transparent;
+}
+
+/* Layout helpers. */
+.reveal .columns {
+  display: flex;
+  align-items: flex-start;
+  gap: 34px;
+}
+
+.reveal .column {
+  min-width: 0;
+}
+
+.reveal .figure-panel {
+  padding: 12px 16px;
+  background: #f7f7f7;
+  border: 1px solid #e3e3e3;
+}
+
+.reveal figure {
+  margin: 0.35em auto;
+}
+
+.reveal figure img,
+.reveal img {
+  max-height: 500px;
+  border: 0;
+  box-shadow: none;
+}
+
+.reveal figcaption {
+  margin-top: 0.35em;
+  color: #4d5c60;
+  font-size: 0.62em;
+  line-height: 1.20;
+}
+
+.reveal table {
+  width: 100%;
+  margin: 0.55em auto;
+  color: var(--lurpa-teal-ink);
+  font-size: 0.74em;
+  border-collapse: collapse;
+}
+
+.reveal table thead th {
+  color: #ffffff;
+  background: var(--lurpa-teal);
+}
+
+.reveal table th,
+.reveal table td {
+  padding: 0.45em 0.62em;
+  border: 1px solid #cfd8da;
+}
+
+.reveal table tbody tr:nth-child(even) {
+  background: #f2f6f7;
+}
+
+.reveal .callout {
+  margin: 0.6em 0;
+  border-left-color: var(--lurpa-purple);
+}
+
+.reveal .callout-title-container {
+  color: var(--lurpa-purple);
+}
+
+.reveal .math.display {
+  margin: 0.70em 0;
+  color: var(--lurpa-teal-ink);
+  font-size: 1.08em;
+}
+
+.reveal pre {
+  width: 100%;
+  margin: 0.55em 0;
+  box-shadow: none;
+}
+
+.reveal code {
+  font-variant-ligatures: none;
+}
+
+.reveal .small {
+  font-size: 0.72em;
+}
+
+.reveal .smaller {
+  font-size: 0.62em;
+}
+
+.reveal .highlight-box,
+.reveal .key-result {
+  margin: 0.75em 0;
+  padding: 0.55em 0.75em;
+  color: var(--lurpa-teal-ink);
+  background: #f1edf9;
+  border-left: 7px solid var(--lurpa-purple);
+}
+
+/* Fragments retain their final place, preventing layout shifts. */
+.reveal .fragment {
+  will-change: opacity;
+}
+
+/* RevealJS print view resets section padding and display with !important.
+ * Restore only the properties needed by this theme, before Reveal measures
+ * the pages. Do NOT put these rules solely inside @media print: the PDF
+ * layout is computed while the print preview is still a screen document.
+ * No @page size: Reveal owns the page dimensions, margins and pagination.
+ */
+html.reveal-print .reveal .slides section.slide,
+html.print-pdf .reveal .slides section.slide {
+  box-sizing: border-box !important;
+  height: var(--slide-height, 720px) !important;
+  padding: var(--lurpa-slide-padding) !important;
+}
+
+html.reveal-print .reveal .slides section.slide.title-slide,
+html.reveal-print .reveal .slides section.slide.section-slide,
+html.print-pdf .reveal .slides section.slide.title-slide,
+html.print-pdf .reveal .slides section.slide.section-slide {
+  display: flex !important;
+}
+
+@media print {
+  .reveal {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}
+

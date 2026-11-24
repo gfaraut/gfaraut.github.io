@@ -1,0 +1,66 @@
+title: LURPA — socle Quarto
+author: Greg (LURPA)
+version: 0.1.0
+quarto-required: ">=1.6.0"
+contributes:
+  formats:
+    # Livres et sites HTML (Moodle) — identité Université Paris-Saclay
+    html:
+      theme:
+        - cosmo
+        - lurpa-html.scss
+      toc: true
+      toc-depth: 3
+      code-copy: true
+      code-overflow: wrap
+      link-external-newwindow: true
+      grid:
+        sidebar-width: 260px
+        body-width: 820px
+        margin-width: 220px
+        gutter-width: 1.5rem
+      filters:
+        - lurpa.lua
+
+    # PDF des livres (LaTeX) — identité Université Paris-Saclay
+    pdf:
+      papersize: a4
+      fontsize: 11pt
+      colorlinks: true
+      linkcolor: ups-prune
+      citecolor: ups-prune
+      filecolor: ups-prune
+      urlcolor: ups-canard
+      include-in-header:
+        - lurpa-preamble.tex
+      filters:
+        - lurpa.lua
+
+    # Diapositives de cours et exposés — identité ENS Paris-Saclay / LURPA
+    # Canevas fixe 1280 x 720 : la feuille lurpa-revealjs.scss en dépend.
+    revealjs:
+      theme:
+        - default
+        - lurpa-revealjs.scss
+      width: 1280
+      height: 720
+      margin: 0.025
+      min-scale: 0.20
+      max-scale: 2.00
+      center: false
+      navigation-mode: linear
+      transition: fade
+      transition-speed: fast
+      background-transition: fade
+      controls: false
+      progress: true
+      slide-number: c/t
+      show-slide-number: all
+      hash: true
+      history: false
+      auto-stretch: false
+      code-overflow: wrap
+      code-line-numbers: false
+      pdf-separate-fragments: false
+      filters:
+        - lurpa.lua

@@ -1,0 +1,82 @@
+---
+title: "Team & supervision"
+aliases:
+  - content/05_supervision.html
+---
+
+<!--
+  MODE D'EMPLOI
+  Chaque personne = 2 lignes : la première finit par une barre oblique inverse (\),
+  la seconde (le sujet) est décalée de 4 espaces.
+
+  - **NOM Prénom** (début–fin, précision éventuelle)\
+      *Sujet de thèse ou de stage*
+
+  Sujet avec lien (thèse sur HAL, article…) :
+      [Titre](https://theses.hal.science/tel-XXXXXXXX)
+
+  Soutenance passée : déplacer le bloc de « Current » vers « Past ».
+  Modifiable directement sur GitHub (crayon « Edit » sur le fichier team.qmd) :
+  le site est reconstruit automatiquement après l'enregistrement.
+-->
+
+## Current PhD students
+
+- **Romain THIBERT** (2022–2026, PhD defence on 14 December 2026)\
+    *Resilient control reconfiguration of cyber-physical systems under cyber-attack by digital twin*
+
+<!-- Nouveau doctorant : décommenter et compléter.
+- **NOM Prénom** (2026–)\
+    *Sujet de thèse*
+-->
+
+## Past PhD students
+
+- **Peng LV** (2025, visiting PhD student, 9 months)\
+    Multi-agent systems, path planning, LTL model-checking, game theory, Supervisory Control Theory
+- **Yan MONIER** (2021–2024)\
+    *Adaptive identification of hybrid systems for cyber-physical system digital twins*
+- **Kevin FOUQUET** (2018–2021)\
+    [Detection of life habits evolution of frail people in a smart dwelling](https://theses.hal.science/tel-03516554)
+- **Kevin VIARD** (2015–2018)\
+    [Modelling and Recognition of Human Activities of Daily Living in a Smart Home](https://theses.hal.science/tel-01867623)
+- **Jérémie SAIVES** (2013–2016)\
+    [Blackbox Behavioural Identification of Discrete Event Systems by Interpreted Petri Nets](https://theses.hal.science/tel-01358280v2)
+- **Michele ROCCOTELLI** (2015, visiting PhD student, 6 months)\
+    [An Integrated Framework for Binary Sensor Placement and Inhabitants Location Tracking](https://ieeexplore.ieee.org/document/7563847)
+
+## Past graduate students (MSc)
+
+- **Simon MEKSAVAN** (2024, 6 months)\
+    *Human activity detection and recognition using AI motion detection and probabilistic finite-state automata*
+- **Romain THIBERT** (2022, 6 months)\
+    *Optimal control reconfiguration under cyber-attack by residual techniques*
+- **Yan MONIER** (2021, 6 months)\
+    *Hybrid model-based identification of complex systems*
+- **Grazia ROSSI** (2019, 6 months)\
+    *Incremental identification of automation systems by discrete event models*
+- **Antonio AMODEO** (2019, 6 months)\
+    *Fault detection with identified discrete models applied to digital twins*
+- **Noemi BIRGONA** (2019, 6 months)\
+    *Incremental identification of observable behaviours in automation systems*
+- **Luigi FERRARA** (2017, 6 months)\
+    *Identification of DES by Petri nets: discovering the unobservable behavior for diagnosis purposes*
+- **Chiara CASCONE** (2017, 6 months)\
+    *Model-based diagnosis of DES based on a fault-free Petri net*
+- **Florentin DELAINE** (2017, 6 months)\
+    *Modélisation et validation expérimentale de la détection d’habitudes de vie dans un habitat intelligent*
+- **Aymeric LABATUT** (2016, 6 months)\
+    *Design and intrusion detection for multi-access industrial buildings*
+- **Kevin VIARD** (2015, 6 months)\
+    *Activities of daily living deviation detection by inhabitant localization*
+- **Clément PIANON** (2014, 6 months)\
+    *Benchmark of discrete models to detect deviations of activities of daily living*
+- **Jérémie SAIVES** (2013, 6 months)\
+    *Activity of daily living design by binary sensors*
+- **Antoine BUTEZ** (2012, 6 months)\
+    *Smart home control by Supervisory Control Theory*
+
+## Past undergraduate students
+
+- **Duc Hung NGUYEN** (2024, 3 months)\
+    *Identification: language-based exact controller synthesis for Discrete Event Systems*

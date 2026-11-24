@@ -1,0 +1,135 @@
+/* Règles propres au site perso (le thème vient du socle lurpa-html). */
+
+:root {
+  --site-prune: #63003C;
+  --site-canard: #007582;
+  --site-filet: #D6DBDF;
+  --site-fond: #F7F7F9;
+}
+
+/* ---------- Publications (liste générée depuis HAL) ---------- */
+.pub-item {
+  display: flex;
+  gap: 1rem;
+  padding: 0.9rem 0;
+  border-bottom: 1px solid var(--site-filet);
+}
+.pub-year {
+  flex: 0 0 3.2rem;
+  font-weight: 600;
+  color: var(--site-canard);
+}
+.pub-title { font-weight: 600; line-height: 1.35; }
+.pub-authors, .pub-venue { font-size: 0.92em; color: #52616B; }
+.pub-links {
+  margin-top: 0.35rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  font-size: 0.8em;
+}
+.pub-links a, .pub-type, .pub-rank {
+  padding: 0.05rem 0.55rem;
+  border-radius: 999px;
+  border: 1px solid var(--site-filet);
+  text-decoration: none;
+}
+.pub-links a:hover { border-color: var(--site-prune); }
+.pub-type { background: var(--site-fond); color: #52616B; }
+.pub-rank {
+  background: var(--site-canard);
+  border-color: var(--site-canard);
+  color: #fff;
+  font-weight: 600;
+}
+.pub-legend .pub-rank {
+  font-size: 0.8em;
+  padding: 0.05rem 0.55rem;
+  border-radius: 999px;
+  margin-right: 0.3rem;
+}
+p.pub-legend, .pub-legend { font-size: 0.9em; color: #52616B; }
+
+/* ---------- Accueil : pleine largeur, mais bornée sur grand écran ---------- */
+body.home #quarto-content {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Pas de titre de page sur l'accueil : le bloc vide laissé par Quarto (et son filet) est masqué. */
+body.home #title-block-header { display: none; }
+
+/* ---------- En-tête de l'accueil ---------- */
+.hero {
+  display: grid;
+  grid-template-columns: 17rem 1fr;
+  gap: 3rem;
+  align-items: start;
+  margin: 1.5rem 0 1rem;
+}
+.hero-id { text-align: center; }
+.hero-id p { margin-bottom: 0.4rem; }
+.hero-photo {
+  width: 14rem;
+  height: 14rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.hero-name {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--site-prune);
+  margin-top: 0.6rem;
+}
+.hero-role {
+  display: block;
+  color: #52616B;
+  padding-bottom: 0.9rem;
+  margin-bottom: 0.9rem;
+  border-bottom: 3px solid var(--site-prune);
+}
+.hero-link {
+  display: inline-block;
+  margin: 0.2rem 0.1rem;
+  padding: 0.15rem 0.7rem;
+  font-size: 0.85em;
+  border: 1px solid var(--site-filet);
+  border-radius: 4px;
+  text-decoration: none;
+  color: #313E48;
+}
+.hero-link:hover { border-color: var(--site-prune); color: var(--site-prune); }
+.hero-text h2 { margin-top: 1.2rem; }
+@media (max-width: 767.98px) {
+  .hero { grid-template-columns: 1fr; gap: 1rem; }
+}
+
+/* ---------- Cartes des thèmes de recherche (accueil) ---------- */
+.theme-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  gap: 1.2rem;
+  margin: 1rem 0 2rem;
+}
+.theme-card {
+  border: 1px solid var(--site-filet);
+  border-radius: 6px;
+  padding: 0.9rem;
+  background: #fff;
+  transition: box-shadow 0.15s, border-color 0.15s;
+}
+.theme-card:hover { border-color: var(--site-prune); box-shadow: 0 2px 10px rgba(99, 0, 60, 0.12); }
+.theme-card img {
+  width: 100%;
+  height: 170px;
+  object-fit: contain;
+  margin-bottom: 0.4rem;
+}
+.theme-card h3 { font-size: 1.1rem; margin: 0.4rem 0; border: none; }
+.theme-card h3 a { text-decoration: none; }
+.theme-card p { font-size: 0.92em; color: #52616B; margin-bottom: 0; }
+.theme-card p:has(> a > img) { margin: 0; }
+
+/* ---------- Page Recherche ---------- */
+.axis-figure img { max-height: 260px; width: auto; max-width: 100%; }

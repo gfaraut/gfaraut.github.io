@@ -1,0 +1,91 @@
+---
+title: "Research"
+aliases:
+  - content/01_research.html
+  - content/011_research.html
+  - content/014_projects.html
+---
+
+<!--
+  PAGE À COMPLÉTER PAR GREG.
+  Chaque thème suit le même plan : figure, texte de présentation, thèses liées,
+  publications choisies. Les phrases actuelles sont un premier jet tiré des titres
+  de thèses et d'articles : à réécrire librement.
+  L'identifiant entre accolades ({#identification}…) est la cible des cartes de
+  l'accueil : le garder si l'on renomme un titre.
+-->
+
+My research interests focus on the **behavioral identification** of **complex systems**,
+using formal models of Discrete Event Systems and Machine Learning techniques.
+
+## Behavior identification of complex systems {#identification}
+
+::: {.grid}
+::: {.g-col-12 .g-col-md-4 .axis-figure}
+![](assets/img/research-identification.jpg){fig-alt="Identification of a cyber-physical system from observed data"}
+:::
+::: {.g-col-12 .g-col-md-8}
+Building models of a system — automata, interpreted Petri nets, hybrid automata — from the
+observation of its inputs and outputs, including the part of its behavior that cannot be
+observed directly.
+
+**Related PhD theses** — Jérémie Saives (2013–2016), Yan Monier (2021–2024).
+
+**Selected publications**
+
+- [An Optimization-Based Approach to Discover the Unobservable Behavior of a Discrete-Event System Through Interpreted Petri Nets](https://hal.science/hal-02369807), *IEEE T-ASE*, 2019.
+- [Automated Partitioning of Concurrent Discrete-Event Systems for Distributed Behavioral Identification](https://hal.science/hal-01564213), *IEEE T-ASE*, 2017.
+- [A new global optimization for hybrid automaton identification](https://hal.science/hal-04804902), *WODES*, 2024.
+:::
+:::
+
+## Digital twins & Human-Cyber-Physical Systems {#digital-twins}
+
+::: {.grid}
+::: {.g-col-12 .g-col-md-4 .axis-figure}
+![](assets/img/research-digital-twin.jpg){fig-alt="Digital twin architecture"}
+:::
+::: {.g-col-12 .g-col-md-8}
+Within the **Industry 5.0** research theme of LURPA: adaptive digital twins of
+cyber-physical systems, model-based diagnosis of cyber-attacks and resilient control
+reconfiguration.
+
+**Related PhD theses** — Yan Monier (2021–2024), Romain Thibert (2022–2026).
+
+**Selected publications**
+
+- [Inferring Moore Machine for Adaptive Online Hybrid Automaton Identification](https://hal.science/hal-04238162), *IFAC World Congress*, 2023.
+- [Construction of Model-based Diagnosis of Cyber-Attack in Cyber-Physical Systems Using Labeled Petri Nets](https://hal.science/hal-04213244), *IEEE ETFA*, 2023.
+:::
+:::
+
+## Healthcare & Ambient Assisted Living {#healthcare}
+
+::: {.grid}
+::: {.g-col-12 .g-col-md-4 .axis-figure}
+![](assets/img/research-healthcare.png){fig-alt="Probabilistic automaton of daily-life activities"}
+:::
+::: {.g-col-12 .g-col-md-8}
+Modeling the daily-life habits of frail people living in a smart home, from binary sensors,
+to locate the inhabitant, recognize activities and detect behavioral deviations over time.
+
+**Related PhD theses** — Jérémie Saives (2013–2016), Kevin Viard (2015–2018),
+Kevin Fouquet (2018–2021).
+
+**Selected publications**
+
+- [Human Activity Discovery and Recognition Using Probabilistic Finite-State Automata](https://hal.science/hal-02557589), *IEEE T-ASE*, 2020.
+- [Activity Discovery and Detection of Behavioral Deviations of an Inhabitant From Binary Sensors](https://hal.science/hal-01253810), *IEEE T-ASE*, 2015.
+- [Model-Based Approach for Anomaly Detection in Smart Home Inhabitant Daily Life](https://hal.science/hal-04160196), *ACC*, 2021.
+:::
+:::
+
+## Supervisory control & controller synthesis {#control}
+
+Synthesis of discrete controllers for Discrete Event Systems, from my PhD work on safe mode
+switching to multi-agent systems.
+
+**Selected publications**
+
+- [Formal Approach to Multimodal Control Design: Application to Mode Switching](https://hal.science/hal-00471885), *IEEE Transactions on Industrial Informatics*, 2009.
+- [Equivalence of behaviors between centralized and multi-model approaches](https://hal.science/hal-00759500), *IEEE CASE*, 2011.
