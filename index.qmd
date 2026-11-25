@@ -60,11 +60,13 @@ member of the [LURPA](https://lurpa.ens-paris-saclay.fr) laboratory and teacher 
 <!-- Biographie à la 3e personne, pour que d'autres puissent la reprendre telle quelle
      (programme de conférence, jury, présentation d'un exposé) : le bouton la copie. -->
 ::: {#biosketch-text}
-Gregory Faraut is a Full Professor at ENS Paris-Saclay (Université Paris-Saclay) and a
-member of the LURPA laboratory. He builds faithful, up-to-date **digital twins** of complex
-systems from their observed behavior, and uses them to detect, explain and respond to
-deviations: faults, cyber-attacks or changes in human behavior. Grounded in **Discrete Event
-Systems**, his work combines formal models — automata, Petri nets, hybrid automata — with
+Gregory Faraut is a Full Professor at ENS Paris-Saclay (Université Paris-Saclay). At the
+LURPA laboratory, he headed the research theme on the dependability and performance of
+cyber-physical systems from 2022 to 2025, and remains in charge of research on the
+dependability of production systems, especially through **Discrete Event Systems**. He builds
+faithful, up-to-date **digital twins** of complex systems from their observed behavior, and
+uses them to detect, explain and respond to deviations: faults, cyber-attacks or changes in
+human behavior. His work combines formal models — automata, Petri nets, hybrid automata — with
 machine learning. Its applications range from manufacturing systems and the reverse
 engineering of legacy PLC-based control systems to the home monitoring of frail people and
 hospital clinical pathways.
