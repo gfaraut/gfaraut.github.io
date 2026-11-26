@@ -299,13 +299,13 @@
    "Francesco Basile",
    "Gregory Faraut",
    "Luigi Ferrara",
-   "Jean-Jaques Lesage"
+   "Jean-Jacques Lesage"
   ],
   "venue": "58th IEEE Conf. on Decision and Control (CDC’19)",
-  "venue_rest": "Dec 2019, Nice, France. pp.2021-2026.",
-  "hal": "https://hal.science/hal-02415453v1",
+  "venue_rest": "Dec 2019, Nice, France. pp. 2021-2026.",
+  "hal": "https://hal.science/hal-04484317v1",
   "source": "HAL",
-  "pdf": "https://hal.science/hal-02415453/document"
+  "pdf": "https://hal.science/hal-04484317/document"
  },
  {
   "title": "An Optimization-Based Approach to Discover the Unobservable Behavior of a Discrete-Event System Through Interpreted Petri Nets",

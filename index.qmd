@@ -102,8 +102,10 @@ document.querySelectorAll('.copy-bio').forEach(function (b) {
 
 ## Research themes
 
-<!-- La figure (assets/img/research-loop.svg) et une carte par thème ; chaque carte mène à la
-     page du thème (research/…), la vue d'ensemble est sur research.qmd. -->
+<!-- La figure (assets/img/research-loop.svg) en pleine largeur, puis une carte par thème,
+     côte à côte ; chaque carte mène à la page du thème (research/…), la vue d'ensemble est sur
+     research.qmd. Garder chaque carte courte (une phrase d'une vingtaine de mots) pour que
+     les trois restent de hauteur voisine. -->
 :::: {.research-overview}
 
 ```{=html}
@@ -117,9 +119,8 @@ document.querySelectorAll('.copy-bio').forEach(function (b) {
 ::: {.theme-card .t-identification}
 ### [[1]{.theme-num} Dynamic identification](research/identification.qmd)
 
-Building, from its observed behavior, a faithful digital twin of a system — a production
-line, a legacy controller, a person at home — kept up to date over time; also for reverse
-engineering.
+Building a faithful digital twin of a system from its observed behavior, kept up to date over
+time — also for reverse engineering.
 :::
 
 ::: {.theme-card .t-detection}
@@ -133,7 +134,7 @@ predictive maintenance.
 ### [[3]{.theme-num} Resilient control](research/control.qmd)
 
 Controlling complex systems with performance and frugality, planning multi-robot paths, and
-keeping systems operational under faults and cyber-attacks.
+staying operational under faults and cyber-attacks.
 :::
 
 [Overview of my research →](research.qmd){.more-link}

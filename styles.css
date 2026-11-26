@@ -169,17 +169,17 @@ body.home #title-block-header { display: none; }
 }
 
 /* ---------- Thèmes de recherche : accueil (figure + cartes) ---------- */
-.research-overview {
+/* La figure occupe toute la largeur (texte lisible), les trois cartes sont alignées dessous. */
+.research-overview { margin: 1rem 0 2rem; }
+.research-overview .research-loop { max-width: 1060px; margin: 0 auto 1.4rem; }
+.research-overview-cards {
   display: grid;
-  grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
-  gap: 1.5rem;
-  align-items: center;
-  margin: 1rem 0 2rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
 }
-.research-overview-cards { display: flex; flex-direction: column; gap: 0.8rem; }
-.research-overview-cards > p { margin: 0.2rem 0 0; }
-@media (max-width: 991.98px) {
-  .research-overview { grid-template-columns: 1fr; }
+.research-overview-cards > p { grid-column: 1 / -1; margin: 0.2rem 0 0; }
+@media (max-width: 767.98px) {
+  .research-overview-cards { grid-template-columns: 1fr; }
 }
 .theme-card {
   border: 1px solid var(--site-filet);
