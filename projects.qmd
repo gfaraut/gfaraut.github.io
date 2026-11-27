@@ -1,5 +1,7 @@
 ---
 title: "Research projects"
+pagetitle: "Gregory Faraut – Research Projects"
+description: "Collaborative research projects of Gregory Faraut with industrial and academic partners: digital twins, reverse engineering, cyber-attack detection, health care."
 aliases:
   - content/014_projects.html
 body-classes: projects-page

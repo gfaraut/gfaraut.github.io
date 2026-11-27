@@ -1,5 +1,7 @@
 ---
 title: "Curriculum Vitae"
+pagetitle: "Gregory Faraut – Curriculum Vitae"
+description: "Curriculum vitae of Gregory Faraut, Full Professor at ENS Paris-Saclay (LURPA): education, positions and research on discrete event systems."
 aliases:
   - content/09_cv.html
 ---

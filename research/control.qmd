@@ -1,6 +1,8 @@
 ---
 title: "Resilient control"
 subtitle: "Theme 3 · Performance, frugality and resilience to faults and attacks"
+pagetitle: "Gregory Faraut – Attack-Resilient Supervisory Control & Multi-Robot Path Planning"
+description: "Attack-resilient supervisory control, multi-robot path planning with temporal logics, and reconfiguration of discrete event systems after faults."
 body-classes: theme-page theme-control
 ---
 
@@ -41,9 +43,10 @@ attacked, and to high-level tasks expressed in temporal logics.
   then the conflicts between modes are resolved to obtain ready-to-use control laws, with the
   conditions under which this multi-model approach behaves like the centralized one; control
   laws are reconfigured when the system changes, for instance after a fault.
-- **Resilience to cyber-attacks.** Supervisors that withstand a prescribed number of attacks
-  on actuators and on sensors, with Osaka Metropolitan University (Kai Cai); reconfiguration of
-  the control of a cyber-physical system under attack, using its digital twin.
+- **Attack-resilient supervisory control.** Supervisors that withstand a prescribed number of
+  attacks on actuators and on sensors, with Osaka Metropolitan University (Kai Cai);
+  reconfiguration of the control of a cyber-physical system under attack, using its digital
+  twin.
 
 ## Related PhD theses and projects
 
@@ -62,9 +65,9 @@ PhD thesis on safe mode switching (Ampère lab, INSA Lyon); see [Supervision](..
   [Uses higher-dimensional automata to turn controllers given as interpreted Petri nets into closed-loop controllers, revealing ambiguous or contradictory specifications.]{.contribution}
 - [Counting Time Temporal Logic for Multi-Robot Path Planning in Finite Horizons](https://doi.org/10.1109/tase.2025.3636053) — *IEEE T-ASE*, 2025.\
   [Extends linear temporal logic to count how many times a sub-task is satisfied, and solves the resulting multi-robot path planning problem by integer linear programming.]{.contribution}
-- [Equivalence of behaviors between centralized and multi-model approaches](https://hal.science/hal-00759500) — *IEEE CASE*, 2011. [Industrial & critical systems]{.domain-tag .domain-industry}\
+- [Equivalence of behaviors between centralized and multi-model approaches](https://hal.science/hal-00759500) — *IEEE CASE*, 2011. [PDF](https://hal.science/hal-00759500/document){.pdf-link} [Industrial & critical systems]{.domain-tag .domain-industry}\
   [Gives the conditions under which the multi-model approach, with smaller models, yields the same controlled behavior as the centralized one.]{.contribution}
-- [Formal Approach to Multimodal Control Design: Application to Mode Switching](https://hal.science/hal-00471885) — *IEEE Transactions on Industrial Informatics*, 2009. [Industrial & critical systems]{.domain-tag .domain-industry}\
+- [Formal Approach to Multimodal Control Design: Application to Mode Switching](https://hal.science/hal-00471885) — *IEEE Transactions on Industrial Informatics*, 2009. [PDF](https://hal.science/hal-00471885/document){.pdf-link} [Industrial & critical systems]{.domain-tag .domain-industry}\
   [A supervisory-control framework to design each operating mode separately, then resolve the conflicts between modes to obtain ready-to-use control laws.]{.contribution}
 
 ::: {.theme-nav}

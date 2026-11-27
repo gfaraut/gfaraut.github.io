@@ -45,7 +45,10 @@ git push                      # publication automatique
 | modifier le CV, le contact, l'enseignement | `cv.qmd`, `contact.qmd`, `teaching.qmd` | responsabilités pédagogiques : `teaching.qmd` ; activités de service : `service.qmd` seulement (le CV y renvoie) |
 | modifier les logos des institutions | `index.qmd` (bloc `{.hero-logos}`) et `_quarto.yml` (`page-footer:`) | fichiers officiels dans `assets/`, à ne pas retoucher ; tailles dans `styles.css` |
 | ajouter une image | `assets/img/` | puis dans la page : `![](assets/img/mon-image.jpg)` |
-| ajouter une page | nouveau fichier `ma-page.qmd` | puis l'ajouter au menu, section `navbar:` de `_quarto.yml` |
+| ajouter une page | nouveau fichier `ma-page.qmd` | en tête : `pagetitle: "Gregory Faraut – …"` (titre de l'onglet et des résultats de recherche, Quarto ajoute « – ENS Paris-Saclay, LURPA ») et `description:` (environ 150 caractères, lue par les moteurs de recherche, non affichée) ; puis l'ajouter au menu, section `navbar:` de `_quarto.yml` |
+| modifier le titre ou la description d'une page dans les moteurs de recherche | en tête de chaque `.qmd` | `pagetitle:` (commencer par « Gregory Faraut – ») et `description:` |
+| ajouter un profil (sameAs), un thème pour les moteurs de recherche | `_includes/person-jsonld.html` | fiche « Person » schema.org de l'accueil, invisible pour les visiteurs |
+| coller une balise de vérification Google Search Console | `_includes/head-meta.html` | le site est déjà vérifié par le fichier `googlefc2dcb7edf7908b6.html` |
 
 ### Rappel Markdown
 
@@ -78,6 +81,7 @@ git push                      # publication automatique
 | `styles.css` | règles propres au site (le thème vient du socle `lurpa`) |
 | `_extensions/lurpa/` | socle Quarto LURPA (format `lurpa-html`) |
 | `research/` | une page par thème de recherche |
+| `_includes/` | balises ajoutées dans l'en-tête des pages : `head-meta.html` (toutes les pages), `person-jsonld.html` (accueil) |
 | `assets/` | images et logos ; `assets/img/research-loop.svg` : figure de la recherche, aux liens cliquables |
 | `.github/workflows/publish.yml` | construction et mise en ligne : à chaque envoi sur `main` et chaque lundi |
 | `googlefc2dcb7edf7908b6.html` | vérification Google Search Console, à garder |

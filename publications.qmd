@@ -1,5 +1,6 @@
 ---
 title: "Publications"
+pagetitle: "Gregory Faraut – Publications"
 description: "Journal articles and conference papers of Gregory Faraut, updated automatically from HAL and OpenAlex."
 aliases:
   - content/02_publicationbib.html
@@ -15,6 +16,7 @@ listing:
   sort-ui: false
   page-size: 500
   feed: false
+body-classes: show-description
 ---
 
 This list is updated automatically from the [HAL open archive](https://cv.hal.science/gfaraut),

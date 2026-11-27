@@ -1,5 +1,7 @@
 ---
 title: "Supervision"
+pagetitle: "Gregory Faraut – PhD and MSc Supervision"
+description: "PhD theses and MSc internships supervised by Gregory Faraut at LURPA, ENS Paris-Saclay, on discrete event systems, digital twins and resilient control."
 aliases:
   - content/05_supervision.html
 # Offres de stage et de thèse : à saisir dans data/offers.yml (elles expirent seules).

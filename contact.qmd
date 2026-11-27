@@ -1,5 +1,7 @@
 ---
 title: "Contact"
+pagetitle: "Gregory Faraut – Contact"
+description: "Contact Gregory Faraut at LURPA, ENS Paris-Saclay, 4 avenue des Sciences, Gif-sur-Yvette, France."
 aliases:
   - content/contact.html
 ---

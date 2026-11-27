@@ -1,6 +1,9 @@
 ---
-pagetitle: "Professor at ENS Paris-Saclay, LURPA"
+pagetitle: "Gregory Faraut – Discrete Event Systems, Behavior Identification & Digital Twins"
+description: "Gregory Faraut, Full Professor at ENS Paris-Saclay (LURPA): identification of discrete event systems, digital twins, deviation detection and resilient control."
 image: assets/img/profile.png
+# Fiche « Person » pour les moteurs de recherche (schema.org) : voir le fichier.
+include-in-header: _includes/person-jsonld.html
 page-layout: full
 body-classes: home
 # Les 3 dernières publications (mêmes données que publications.qmd, mises à jour seules).
@@ -82,7 +85,8 @@ Systems Engineering of Université Paris-Saclay.
 :::
 
 ```{=html}
-<button type="button" class="copy-bio" data-target="biosketch-text"><i class="bi bi-clipboard"></i> Copy the biosketch</button>
+<!-- data-nosnippet : Google ne reprend pas le libellé du bouton dans ses extraits. -->
+<div data-nosnippet><button type="button" class="copy-bio" data-target="biosketch-text"><i class="bi bi-clipboard"></i> Copy the biosketch</button></div>
 <script>
 document.querySelectorAll('.copy-bio').forEach(function (b) {
   var label = b.innerHTML;

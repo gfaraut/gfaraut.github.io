@@ -1,5 +1,7 @@
 ---
 title: "Teaching"
+pagetitle: "Gregory Faraut – Teaching: Discrete Event Systems, Petri Nets & Optimization"
+description: "Teaching of Gregory Faraut at ENS Paris-Saclay and Université Paris-Saclay: discrete event systems, Petri nets, diagnosis, optimization and AI, control theory."
 aliases:
   - content/04_Teaching.html
 ---

@@ -1,5 +1,7 @@
 ---
 title: "Professional service"
+pagetitle: "Gregory Faraut – Professional Service"
+description: "Professional service of Gregory Faraut: PhD committees, invited talks, editorial and program committees, event organisation, evaluation and expertise."
 body-classes: service-page
 ---
 

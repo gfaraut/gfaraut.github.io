@@ -1,6 +1,8 @@
 ---
 title: "Dynamic identification"
 subtitle: "Theme 1 · Digital twins and reverse engineering from observed behavior"
+pagetitle: "Gregory Faraut – Identification of Discrete Event Systems & Digital Twins"
+description: "Identification of discrete event systems: Petri net identification from input/output sequences, hybrid automata and digital twin update from observed behavior."
 body-classes: theme-page theme-identification
 ---
 
@@ -12,8 +14,10 @@ body-classes: theme-page theme-identification
   les y tenir à jour d'abord.
 
   Publication choisie (2 lignes, la 1re finit par une barre oblique inverse \) :
-  - [Titre](https://lien-HAL-ou-DOI) — *Revue ou conférence*, année. [Industrial & critical systems]{.domain-tag .domain-industry}\
+  - [Titre](https://lien-HAL-ou-DOI) — *Revue ou conférence*, année. [PDF](https://hal.science/hal-xxxxxxxx/document){.pdf-link} [Industrial & critical systems]{.domain-tag .domain-industry}\
     [Ce que l'article apporte, en une phrase.]{.contribution}
+  [PDF](…){.pdf-link} : lien vers le PDF déposé sur HAL (adresse du dépôt suivie de /document),
+  à omettre si HAL n'a pas le texte intégral.
   Domaine : [Industrial & critical systems]{.domain-tag .domain-industry}
          ou [Human & health]{.domain-tag .domain-human} (facultatif pour un travail méthodologique).
   Ordre : du plus récent au plus ancien. Esprit DORA : on dit ce que l'article apporte,
@@ -34,12 +38,13 @@ legacy systems without documentation, state-space explosion, complex systems, hu
 Identification builds it from data: given a class of models, a criterion and measurements of
 the input and output signals, find the model that best fits the observations (Åström, 1971).
 
-For discrete event systems, no predetermined model structure exists, combinatorics explode,
-and part of the behavior cannot be observed. Above all, the goal is not a model built once but
+The identification of discrete event systems raises specific difficulties: no predetermined
+model structure exists, combinatorics explode, and part of the behavior cannot be observed. Above all, the goal is not a model built once but
 a digital twin: a virtual model that mimics the behavior of its physical system and is updated
 with its data throughout its life cycle (AIAA, 2020). It must therefore be faithful to the
 observed behavior, readable — for reverse engineering, certification or medical staff — and
-follow the system as it ages or is reconfigured. This twin is the core of the other themes:
+follow the system as it ages or is reconfigured: digital twin update from observed behavior
+matters as much as the initial identification. This twin is the core of the other themes:
 deviation detection and explainability, behavior equivalence, verification, resilient control.
 
 ## Contributions
@@ -48,10 +53,11 @@ deviation detection and explainability, behavior equivalence, verification, resi
   control systems whose documentation is missing or outdated: a formal approach for timed
   logic systems based on programmable logic controllers, with EDF R&D (CIFRE PhD started in
   2026).
-- **Black-box identification of reactive systems by interpreted Petri nets.** Models readable
-  by engineers, built from the input/output events of a controlled system for reverse
-  engineering, including the part of its behavior that cannot be observed, and distributed
-  into subsystems for large concurrent systems.
+- **Petri net identification from input/output sequences.** Black-box identification of
+  reactive systems by interpreted Petri nets: models readable by engineers, built from the
+  input/output event sequences of a controlled system for reverse engineering, including the
+  part of its behavior that cannot be observed, and distributed into subsystems for large
+  concurrent systems.
 - **Hybrid automaton identification for the digital twins of cyber-physical systems.** Models
   that combine discrete and continuous dynamics, identified online and adaptively so that they
   follow the system as it evolves, and optimized globally for fidelity and readability.
@@ -85,15 +91,15 @@ ProMAut, ITSCABA; see [Projects](../projects.qmd).
 
 - [Probabilistic timed Petri nets for clinical pathway design and analysis: a case study](https://doi.org/10.1007/s10626-025-00419-4) — *Discrete Event Dynamic Systems*, 2025. [Human & health]{.domain-tag .domain-human}\
   [Combines pattern mining and probabilistic timed Petri nets to design and evaluate clinical pathways, applied with medical professionals to anterior cruciate ligament ruptures from real data.]{.contribution}
-- [A new global optimization for hybrid automaton identification](https://hal.science/hal-04804902) — *WODES*, 2024. [Industrial & critical systems]{.domain-tag .domain-industry}\
+- [A new global optimization for hybrid automaton identification](https://hal.science/hal-04804902) — *WODES*, 2024. [PDF](https://hal.science/hal-04804902/document){.pdf-link} [Industrial & critical systems]{.domain-tag .domain-industry}\
   [Adds a global optimization step to hybrid automaton identification, balancing model distance, sequential fidelity and automaton structure instead of solving local problems one after another.]{.contribution}
-- [Inferring Moore Machine for Adaptive Online Hybrid Automaton Identification](https://hal.science/hal-04238162) — *IFAC World Congress*, 2023. [Industrial & critical systems]{.domain-tag .domain-industry}\
+- [Inferring Moore Machine for Adaptive Online Hybrid Automaton Identification](https://hal.science/hal-04238162) — *IFAC World Congress*, 2023. [PDF](https://hal.science/hal-04238162/document){.pdf-link} [Industrial & critical systems]{.domain-tag .domain-industry}\
   [Identifies hybrid systems online and adaptively, through a mapping between hybrid automata and discrete-event Moore machines, so that the model can follow the system as it evolves.]{.contribution}
-- [Human Activity Discovery and Recognition Using Probabilistic Finite-State Automata](https://hal.science/hal-02557589) — *IEEE T-ASE*, 2020. [Human & health]{.domain-tag .domain-human}\
+- [Human Activity Discovery and Recognition Using Probabilistic Finite-State Automata](https://hal.science/hal-02557589) — *IEEE T-ASE*, 2020. [PDF](https://hal.science/hal-02557589/document){.pdf-link} [Human & health]{.domain-tag .domain-human}\
   [Discovers and recognizes activities of daily living with probabilistic finite-state automata, using a normalized likelihood and perplexity whose computation is simplified.]{.contribution}
-- [An Optimization-Based Approach to Discover the Unobservable Behavior of a Discrete-Event System Through Interpreted Petri Nets](https://hal.science/hal-02369807) — *IEEE T-ASE*, 2019. [Industrial & critical systems]{.domain-tag .domain-industry}\
+- [An Optimization-Based Approach to Discover the Unobservable Behavior of a Discrete-Event System Through Interpreted Petri Nets](https://hal.science/hal-02369807) — *IEEE T-ASE*, 2019. [PDF](https://hal.science/hal-02369807/document){.pdf-link} [Industrial & critical systems]{.domain-tag .domain-industry}\
   [Discovers the unobservable part of a system's behavior from long event sequences, by adding places to an interpreted Petri net through optimization-based net synthesis.]{.contribution}
-- [Automated Partitioning of Concurrent Discrete-Event Systems for Distributed Behavioral Identification](https://hal.science/hal-01564213) — *IEEE T-ASE*, 2017. [Industrial & critical systems]{.domain-tag .domain-industry}\
+- [Automated Partitioning of Concurrent Discrete-Event Systems for Distributed Behavioral Identification](https://hal.science/hal-01564213) — *IEEE T-ASE*, 2017. [PDF](https://hal.science/hal-01564213/document){.pdf-link} [Industrial & critical systems]{.domain-tag .domain-industry}\
   [Splits a concurrent system into subsystems so that the distributed models identified from its input/output events are as readable as possible, for reverse engineering.]{.contribution}
 
 ::: {.theme-nav}

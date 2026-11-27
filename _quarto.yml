@@ -65,3 +65,7 @@ format:
     toc: false
     page-layout: article
     css: styles.css
+    # Fin du titre de chaque page (onglet, résultats de recherche) : chaque page donne son
+    # « pagetitle » en commençant par « Gregory Faraut – … », Quarto ajoute ce suffixe.
+    title-prefix: "ENS Paris-Saclay, LURPA"
+    include-in-header: _includes/head-meta.html

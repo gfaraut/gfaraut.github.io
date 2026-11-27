@@ -1,6 +1,8 @@
 ---
 title: "Deviation detection & characterization"
 subtitle: "Theme 2 · Detecting and explaining faults, cyber-attacks and changes in human behavior"
+pagetitle: "Gregory Faraut – Detecting and Explaining Faults, Cyber-Attacks and Behavioral Deviations"
+description: "Detecting and explaining faults, cyber-attacks and changes in human behavior with discrete-event models and AI methods, from production lines to home monitoring."
 body-classes: theme-page theme-detection
 ---
 
@@ -64,13 +66,13 @@ activity recognition, 5P, CARNAVAL; see [Projects](../projects.qmd).
 
 - [Cyber-Attacks Diagnosis in Discrete Event Systems using Timed Deviation Pattern Recognition](https://doi.org/10.1016/j.ifacol.2025.09.346) — *IFAC MIM*, 2025. [Industrial & critical systems]{.domain-tag .domain-industry}\
   [Models a system prone to both faults and attacks as a nominal and a faulty timed automaton; an observer follows chains of deviations, expressed through residuals, to tell attacks from faults.]{.contribution}
-- [Construction of Model-based Diagnosis of Cyber-Attack in Cyber-Physical Systems Using Labeled Petri Nets](https://hal.science/hal-04213244) — *IEEE ETFA*, 2023. [Industrial & critical systems]{.domain-tag .domain-industry}\
+- [Construction of Model-based Diagnosis of Cyber-Attack in Cyber-Physical Systems Using Labeled Petri Nets](https://hal.science/hal-04213244) — *IEEE ETFA*, 2023. [PDF](https://hal.science/hal-04213244/document){.pdf-link} [Industrial & critical systems]{.domain-tag .domain-industry}\
   [Builds a diagnosis model from labeled Petri nets to detect attacks between a process and its controller before they destabilize the system.]{.contribution}
-- [Long-term deviation detection in human behavior](https://doi.org/10.1109/CASE49439.2021.9551594) — *IEEE CASE*, 2021. [Human & health]{.domain-tag .domain-human}\
+- [Long-term deviation detection in human behavior](https://doi.org/10.1109/CASE49439.2021.9551594) — *IEEE CASE*, 2021. [PDF](https://hal.science/hal-04160204/document){.pdf-link} [Human & health]{.domain-tag .domain-human}\
   [Forecasts activity durations to detect early the slow behavior changes caused by degenerative diseases, and informs the medical staff.]{.contribution}
-- [Model-Based Approach for Anomaly Detection in Smart Home Inhabitant Daily Life](https://hal.science/hal-04160196) — *ACC*, 2021. [Human & health]{.domain-tag .domain-human}\
+- [Model-Based Approach for Anomaly Detection in Smart Home Inhabitant Daily Life](https://hal.science/hal-04160196) — *ACC*, 2021. [PDF](https://hal.science/hal-04160196/document){.pdf-link} [Human & health]{.domain-tag .domain-human}\
   [Models life habits — activity durations and ordering — with stochastic timed automata, to detect behavioral changes that may be symptoms of health problems.]{.contribution}
-- [Activity Discovery and Detection of Behavioral Deviations of an Inhabitant From Binary Sensors](https://hal.science/hal-01253810) — *IEEE T-ASE*, 2015. [Human & health]{.domain-tag .domain-human}\
+- [Activity Discovery and Detection of Behavioral Deviations of an Inhabitant From Binary Sensors](https://hal.science/hal-01253810) — *IEEE T-ASE*, 2015. [PDF](https://hal.science/hal-01253810/document){.pdf-link} [Human & health]{.domain-tag .domain-human}\
   [Discovers the activities of a smart-home inhabitant by sequence mining on binary sensor events, models them as automata, and detects deviations from the requirements set by medical staff.]{.contribution}
 
 ::: {.theme-nav}

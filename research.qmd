@@ -1,5 +1,7 @@
 ---
 title: "Research"
+pagetitle: "Gregory Faraut – Research: Discrete Event Systems, Digital Twins & Cyber-Resilience"
+description: "Research of Gregory Faraut on discrete event systems: dynamic identification and digital twins, detection of faults and cyber-attacks, attack-resilient control."
 aliases:
   - content/01_research.html
   - content/011_research.html
@@ -27,8 +29,9 @@ body-classes: research-page
   un futur partenaire (pas plus) ; sur les pages de thème, seulement les titres des apports.
 -->
 
-My research addresses the modeling, analysis and supervision of complex systems, at the
-crossroads of computer science, control and cyber-physical systems. **Discrete Event Systems**
+My research addresses the modeling, analysis and supervision of complex systems, including
+human-cyber-physical systems, at the crossroads of computer science, control and
+cyber-physical systems. **Discrete Event Systems**
 are its theoretical basis. From observed data, I build interpretable behavioral models — the
 **digital twin** of a system — and use them to detect and explain deviations and to keep the
 system safe when they occur. The aim is to make these systems more *reflexive*: aware of
@@ -84,8 +87,8 @@ Supervisory Control Theory and on the digital twin. Resilience is understood bro
 controlling very complex systems with today's performance criteria, such as **frugality**;
 **multi-robot path planning** with temporal logics, for teams of robots or drones; keeping the
 system in operational condition when faults occur, through maintenance, repair and control
-**reconfiguration**; and withstanding attacks on actuators and sensors, for the
-**cybersecurity** of critical systems.
+**reconfiguration**; and attack-resilient supervisory control, which withstands attacks on
+actuators and sensors, for the **cybersecurity** of critical systems.
 
 [Read more →](research/control.qmd){.more-link}
 
@@ -105,6 +108,6 @@ a tag beside each selected publication gives its field.
 ::: {.join-us}
 **Working together.** I welcome collaborations with industrial and academic partners on these
 themes — joint research projects, CIFRE PhDs, internships — for instance on the reverse
-engineering and digital twins of legacy control systems, the cyber-resilience of critical
-systems, or the monitoring of people at home. [Contact me](contact.qmd).
+engineering and digital twins of legacy control systems, the cyber-resilience of
+PLC-controlled and other critical systems, or the monitoring of people at home. [Contact me](contact.qmd).
 :::
